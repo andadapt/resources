@@ -1,4 +1,4 @@
-
+flow=column
 # Small Basic - Lesson 3 
 ## Input / Output
 
