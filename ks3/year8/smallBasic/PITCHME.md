@@ -3,8 +3,8 @@
 
 
 
-![](assets/img/test.png)
-
+![](assets/img/slide3right.png)
+inserting some text to test
 
 ---
 
@@ -36,9 +36,11 @@ construct a program that allows the user to input and output data
 
 [drag=50,drop=right]
 ![](assets/img/test.png)
+
 ---
 
-[drag=99, drop=center, flow=column]
+[drag=100, drop=center, flow=column]
+[drag=50, drop=left, flow=column]
 ## Small Basic
 
 Everything we have done in Small Basic so far has been using turtle to draw shapes. We are now going to look at creating text based programs.
@@ -55,8 +57,13 @@ This command will allow the user to enter something into the program
 ```basic
 TextWindow.WriteLine(“Hello World”)
 ```
+
+[drag=50,drop=right]
+![](assets/img/slide3right.png)
+
 ---
 [drag=99, drop=center, flow=column]
+[drag=50, drop=left, flow=column]
 # Slide 4
 
 ## Task
@@ -70,6 +77,10 @@ Complete Task 1 under lesson 3, can you change the colour of the foreground/back
 **Extension:**
 
 Can you use TextWindow.Write() to change the colour of your text like shown below?
+
+[drag=50,drop=right]
+![](assets/img/slide4right.png)
+
 ---
 [drag=99, drop=center, flow=column]
 # Slide 5
@@ -165,6 +176,7 @@ Explain what this code would do.
 ---
 [drag=99, drop=center, flow=column]
 # Slide 11
+[drag=50, drop=left, flow=column]
 ## Task
 
 Try to complete Task 2 - Shopping List.
@@ -173,9 +185,14 @@ Use the code that is given to get started and then continue creating the program
 
 ## Done?
 Screenshot your code and add it to your programming diary
+
+[drag=50,drop=right]
+![](assets/img/slide11right.png)
+
 ---
 [drag=99, drop=center, flow=column]
 Slide 12
+[drag=50, drop=left, flow=column]
 ## Task
 
 
@@ -185,6 +202,9 @@ Use the code that is given to get started and then continue creating the program
 
 ## Done? 
 Screenshot your code and add it to your programming diary
+[drag=50,drop=right]
+![](assets/img/slide12rightt.png)
+
 ---
 [drag=99, drop=center, flow=column]
 # Slide 13
