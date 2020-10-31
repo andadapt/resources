@@ -23,7 +23,8 @@ construct a program that allows the user to input and output data
 
 - What are the values of A, B, C and D?
 
-[drag=50,drop=right, flow=column]
+
+
 ![width=400](assets/slide2riht.png)
 
 
