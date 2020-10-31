@@ -34,14 +34,8 @@ construct a program that allows the user to input and output data
 
 
 
-[drag=50,drop=right, bg=yellow]
-
--- Speaker notes
-Answers: 
-A = 7
-B = 3
-C = 8
-D = 3
+[drag=50,drop=right]
+![](assets/img/test.png)
 ---
 
 [drag=99, drop=center, flow=column]
