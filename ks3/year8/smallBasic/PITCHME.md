@@ -1,11 +1,11 @@
 # Slide 1 
-Small Basic - Lesson 3 
-Input / Output
+# Small Basic - Lesson 3 
+## Input / Output
 
-ASPIRE to:
+**ASPIRE to:**
 apply the methods of input and output in a variety of scenarios
 
-CHALLENGE to:
+**CHALLENGE to:**
 construct a program that allows the user to input and output data
 ---
 # Slide 2
