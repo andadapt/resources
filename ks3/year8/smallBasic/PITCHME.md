@@ -5,11 +5,11 @@
 
 **ASPIRE to:**
 apply the methods of input and output in a variety of scenarios
-<br><br>
+
 **CHALLENGE to:**
 construct a program that allows the user to input and output data
 ---
-# Slide 2
+[drag=99, drop=center, flow=column]
 ## Starter
 
 **Can you solve the following problem?**
@@ -29,22 +29,24 @@ B = 3
 C = 8
 D = 3
 ---
-# Slide 3
 
+[drag=99, drop=center, flow=column]
 ## Small Basic
 
 Everything we have done in Small Basic so far has been using turtle to draw shapes. We are now going to look at creating text based programs.
-<br>
+
 
 ```basic, drag=99, fit=1
 TextWindow.WriteLine(“Text”)
 ```
 This command will display the text inside the speech marks on screen.
+```basic, drag=99, fit=1
 TextWindow.Read()
+```
 This command will allow the user to enter something into the program
-
+```basic, drag=99, fit=1
 TextWindow.WriteLine(“Hello World”)
-
+```
 ---
 # Slide 4
 
