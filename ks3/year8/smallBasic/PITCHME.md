@@ -1,9 +1,9 @@
 [drag=100, drop=center, flow=column]
-image test
 
 
 
-![drag=100, drop=center, alt=TEST](assets/img/test.png)
+
+![drag=100, drop=center](assets/img/test.png)
 
 
 ---
