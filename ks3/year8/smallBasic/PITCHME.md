@@ -3,7 +3,7 @@ image test
 
 
 
-![drag=100, drop=center, alt=TEST](assets/test.png)
+![drag=100, drop=center, alt=TEST](assets/img/test.png)
 
 
 ---
