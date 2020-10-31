@@ -1,6 +1,6 @@
 image test
 
-[drag=50, drop=center]
+[drag=99, drop=center]
 
 ![TEST](assets/test.png)
 
