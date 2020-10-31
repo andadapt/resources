@@ -9,7 +9,8 @@ apply the methods of input and output in a variety of scenarios
 **CHALLENGE to:**
 construct a program that allows the user to input and output data
 ---
-[drag=50, drop=left, flow=column]
+[drag=50, drop=left
+, flow=column]
 ## Starter
 
 **Can you solve the following problem?**
@@ -21,6 +22,10 @@ construct a program that allows the user to input and output data
 - The number in each square gives the length of its sides.
 
 - What are the values of A, B, C and D?
+
+[drag=50,drop=right, flow=column]
+![width=400](assets/slide2riht.png)
+
 
 -- Speaker notes
 Answers: 
