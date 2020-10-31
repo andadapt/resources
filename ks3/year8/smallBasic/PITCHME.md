@@ -1,3 +1,4 @@
+[drag=100, drop=center, flow=column]
 image test
 
 
