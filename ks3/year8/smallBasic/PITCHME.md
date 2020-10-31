@@ -14,12 +14,12 @@ Starter
 **Can you solve the following problem?**
 
 
-Each shape contained within the largest square is also a Square.
+- Each shape contained within the largest square is also a Square.
 
 
-The number in each square gives the length of its sides.
+- The number in each square gives the length of its sides.
 
-What are the values of A, B, C and D?
+- What are the values of A, B, C and D?
 
 -- Speaker notes
 Answers: 
