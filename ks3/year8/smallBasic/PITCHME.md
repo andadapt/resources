@@ -4,15 +4,18 @@ Input / Output
 
 ASPIRE to:
 apply the methods of input and output in a variety of scenarios
+
 CHALLENGE to:
 construct a program that allows the user to input and output data
 ---
 # Slide 2
 Starter
 
-Can you solve the following problem?
+**Can you solve the following problem?**
+
 
 Each shape contained within the largest square is also a Square.
+
 
 The number in each square gives the length of its sides.
 
