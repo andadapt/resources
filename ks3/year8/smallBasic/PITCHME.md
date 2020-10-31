@@ -23,8 +23,11 @@ construct a program that allows the user to input and output data
 - What are the values of A, B, C and D?
 
 
+[drag=50, drop=center]
 
-![width=400](assets/test.PNG)
+![TEST](assets/test.png)
+
+
 
 
 -- Speaker notes
