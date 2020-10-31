@@ -4,7 +4,7 @@
 
 **ASPIRE to:**
 apply the methods of input and output in a variety of scenarios
-\\
+\
 **CHALLENGE to:**
 construct a program that allows the user to input and output data
 ---
