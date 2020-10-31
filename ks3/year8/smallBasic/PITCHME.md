@@ -1,4 +1,4 @@
-# Slide 1 
+
 # Small Basic - Lesson 3 
 ## Input / Output
 
