@@ -1,3 +1,11 @@
+image test
+
+[drag=50, drop=center]
+
+![TEST](assets/test.png)
+
+
+---
 
 [drag=99, drop=center, flow=column]
 # Small Basic - Lesson 3 
@@ -23,9 +31,6 @@ construct a program that allows the user to input and output data
 - What are the values of A, B, C and D?
 
 
-[drag=50, drop=center]
-
-![TEST](assets/test.png)
 
 
 
