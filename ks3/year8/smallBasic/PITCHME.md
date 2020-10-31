@@ -36,15 +36,15 @@ D = 3
 Everything we have done in Small Basic so far has been using turtle to draw shapes. We are now going to look at creating text based programs.
 
 
-```basic, drag=99, fit=1
+```basic
 TextWindow.WriteLine(“Text”)
 ```
 This command will display the text inside the speech marks on screen.
-```basic, drag=99, fit=1
+```basic
 TextWindow.Read()
 ```
 This command will allow the user to enter something into the program
-```basic, drag=99, fit=1
+```basic
 TextWindow.WriteLine(“Hello World”)
 ```
 ---
