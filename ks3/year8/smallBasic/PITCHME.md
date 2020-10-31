@@ -4,12 +4,12 @@
 
 **ASPIRE to:**
 apply the methods of input and output in a variety of scenarios
-
+\\
 **CHALLENGE to:**
 construct a program that allows the user to input and output data
 ---
 # Slide 2
-Starter
+## Starter
 
 **Can you solve the following problem?**
 
@@ -30,7 +30,7 @@ D = 3
 ---
 # Slide 3
 
-Small Basic
+## Small Basic
 
 Everything we have done in Small Basic so far has been using turtle to draw shapes. We are now going to look at creating text based programs.
 
@@ -44,20 +44,21 @@ TextWindow.WriteLine(“Hello World”)
 ---
 # Slide 4
 
-Task
+## Task
 
 Open the Small Basic website at:
+\\
 http://computing.outwood.com/smallbasic
-
+\\
 Complete Task 1 under lesson 3, can you change the colour of the foreground/background?
 
-Extension:
+**Extension:**
 
 Can you use TextWindow.Write() to change the colour of your text like shown below?
 ---
 # Slide 5
-Progress Check
-On your mini-whiteboards answer the following questions:
+## Progress Check
+**On your mini-whiteboards answer the following questions:**
 
 What would the following code do?
 TextWindow.WriteLine(“Welcome to Computer Science”)
@@ -67,8 +68,8 @@ Answer:
 It would say Welcome to Computer Science on screen
 ---
 # Slide 6
-Progress Check
-On your mini-whiteboards answer the following questions:
+## Progress Check
+**On your mini-whiteboards answer the following questions:**
 What would the following code do?
 TextWindow.ForegroundColor = “Green”
 TextWindow.WriteLine(“This is Green”)
@@ -78,8 +79,8 @@ Answer:
 It would say This is Green with the text being green
 ---
 # Slide 7
-Progress Check
-On your mini-whiteboards answer the following questions:
+## Progress Check
+**On your mini-whiteboards answer the following questions:**
 
 What would the following code do?
 TextWindow.BackgroundColor = “Green”
@@ -90,8 +91,8 @@ Answer:
 It would say This is Green with the background colour being green
 ---
 # Slide 8
-Progress Check
-On your mini-whiteboards answer the following questions:
+## Progress Check
+**On your mini-whiteboards answer the following questions:**
 
 What would the following code do?
 TextWindow.WriteLine(“This is Green”)
@@ -102,8 +103,8 @@ Answer:
 It would say This is Green but the text colour would be the default colour
 ---
 # Slide 9
-Progress Check
-On your mini-whiteboards answer the following questions:
+## Progress Check
+**On your mini-whiteboards answer the following questions:**
 
 What is the difference between:
 TextWindow.Write()
@@ -115,8 +116,7 @@ Answer:
 TextWindow.Write will not start a new line with the code that follows.
 TextWindow.WriteLine will start a new line after the text in the brackets
 ---
-# Slide 10
-Taking Input
+# Taking Input
 
 So you now know how to display text on screen, but what about taking input from the user, you can do this will the following command.
 
@@ -134,10 +134,10 @@ TextWindow.WriteLine(“Your name is “ + name)
 Explain what this code would do.
 ---
 # Slide 11
-Task
+## Task
 
 Try to complete Task 2 - Shopping List.
-
+\\
 Use the code that is given to get started and then continue creating the program so it works like the example shown.
 
 Done? Screenshot your code and add it to your programming diary
