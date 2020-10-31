@@ -1,4 +1,5 @@
-drag=99, drop=center, flow=column
+
+[drag=99, drop=center, flow=column]
 # Small Basic - Lesson 3 
 ## Input / Output
 
