@@ -63,8 +63,8 @@ TextWindow.WriteLine(“Hello World”)
 
 ---
 [drag=99, drop=center, flow=column]
-[drag=50, drop=left, flow=column]
-# Slide 4
+
+
 
 ## Task
 
@@ -78,7 +78,7 @@ Complete Task 1 under lesson 3, can you change the colour of the foreground/back
 
 Can you use TextWindow.Write() to change the colour of your text like shown below?
 
-[drag=50,drop=right]
+
 ![](assets/img/slide4right.png)
 
 ---
