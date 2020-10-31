@@ -18,9 +18,9 @@ apply the methods of input and output in a variety of scenarios
 **CHALLENGE to:**
 construct a program that allows the user to input and output data
 ---
-[drag=50, drop=left, flow=column]
+[drag=100, drop=center, flow=column]
 ## Starter
-
+[drag=50, drop=left, flow=column]
 **Can you solve the following problem?**
 
 
@@ -33,7 +33,7 @@ construct a program that allows the user to input and output data
 
 
 
-
+[drag=50,drop=right, bg=yellow]
 
 
 -- Speaker notes
