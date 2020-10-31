@@ -24,7 +24,7 @@ construct a program that allows the user to input and output data
 
 
 
-![width=400](assets/slide2right.PNG)
+![width=400](assets/test.PNG)
 
 
 -- Speaker notes
