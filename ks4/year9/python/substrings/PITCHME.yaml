@@ -5,8 +5,8 @@ gitpitch : 4.0
 theme-override: assets/css/PITCHME.css
 
 # Slide Deck Metadata
-title : "GitPitch Quickstart"
-description : "Experience and experiment with the exciting new features at the heart of GitPitch 4.0."
+title : "Python - substrings"
+description : "python substrings for KS4, includes demos and work to be completed"
 thumbnail : assets/img/gitpitch-40-splash.png
 
 
