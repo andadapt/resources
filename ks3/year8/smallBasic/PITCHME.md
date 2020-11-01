@@ -40,7 +40,7 @@ construct a program that allows the user to input and output data
 ---
 
 [drag=100, drop=center, flow=column]
-[drag=50, drop=left, flow=column]
+
 ## Small Basic
 
 Everything we have done in Small Basic so far has been using turtle to draw shapes. We are now going to look at creating text based programs.
@@ -58,7 +58,7 @@ This command will allow the user to enter something into the program
 TextWindow.WriteLine(“Hello World”)
 ```
 
-[drag=50,drop=right]
+
 ![](assets/img/slide3right.png)
 
 ---
@@ -174,7 +174,7 @@ TextWindow.WriteLine(“Your name is “ + name)
 -- Speaker Notes
 Explain what this code would do.
 ---
-[drag=99, drop=center, flow=column]
+[drag=100, drop=center, flow=column]
 # Slide 11
 [drag=50, drop=left, flow=column]
 ## Task
