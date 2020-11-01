@@ -79,13 +79,15 @@ Using a new Python window you need to follow the instructions provided in your 
 
 You need to create a program that takes a persons DOB and outputs a special Number
 ---
-[drag=100, drop=center, flow=stack]
+[drag=100, drop=center, flow=col]
 
 ## TAME Tasks - Sub Strings
-- Test - test your new program on Slide 10
+@ol[list-fade-bullets]
+- Test,- test your new program on Slide 10
 - Evaluate - on slide 13 there is an example program that has been created for you. You should answer the question.
 - Analyse - on slide 6 there is an example program that has been created for you. You should answer the question based on what you see in the code.
 - Modify - on slide 12 Read the success criteria and make the program work as it should
+@ol
 ---
 [drag=100, drop=center, flow=col]
 
