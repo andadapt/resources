@@ -50,14 +50,14 @@ Use an if to check that the first character is a 0
 If it is output, “this looks like a valid phone number”
 ---
 [drag=100, drop=center, flow=col]
-# Slide 5
+
 ## Task 1 - Research 
 **Your turn 🎉**
 Using a new Python window you need to follow the instructions provided in your Student Workbook.
 Create a program that takes a 5 letter word and then reverses the letters.
 ---
 [drag=100, drop=center, flow=col]
-# Slide 6
+
 ## What’s the output?
 Look at the code below;
 ```python
@@ -72,7 +72,7 @@ print(word[8]+word[1]+word[2]+word[6]+word[8]
 
 ---
 [drag=100, drop=center, flow=col]
-# Slide 7
+
 ## Task 2 - Special Number
 **Your turn 🎉**
 Using a new Python window you need to follow the instructions provided in your Student Workbook.
@@ -80,7 +80,7 @@ Using a new Python window you need to follow the instructions provided in your 
 You need to create a program that takes a persons DOB and outputs a special Number
 ---
 [drag=100, drop=center, flow=stack]
-# Slide 8
+
 ## TAME Tasks - Sub Strings
 - Test - test your new program on Slide 10
 - Evaluate - on slide 13 there is an example program that has been created for you. You should answer the question.
@@ -88,7 +88,7 @@ You need to create a program that takes a persons DOB and outputs a special Num
 - Modify - on slide 12 Read the success criteria and make the program work as it should
 ---
 [drag=100, drop=center, flow=col]
-# Slide 10
+
 ## Python - Sub Strings
 **ASPIRE TO:** Apply sub strings to meet a success criteria
 
