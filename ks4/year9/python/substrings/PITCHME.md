@@ -9,14 +9,14 @@ Put your answer on your MWB.
 Also be prepared to explain your answer
 ---
 [drag=100, drop=center, flow=col]
-# Slide 2
+
 ## Python - Sub Strings
 **ASPIRE TO:** Apply sub strings to meet a success criteria
 
 **CHALLENGE TO:** Describe how sub strings are used in Python
 ---
 [drag=100, drop=center, flow=col]
-#Slide 3
+
 ## Sub Strings
 
 word = input("Please enter a 5 letter word: ")
@@ -39,11 +39,14 @@ l
 o
 ---
 [drag=100, drop=center, flow=stack]
-# Slide 4 
+
 ## Teacher Demonstration
 Create a new variable and store 07912345691
+
 This should be cast as a string already
+
 Use an if to check that the first character is a 0
+
 If it is output, “this looks like a valid phone number”
 ---
 [drag=100, drop=center, flow=col]
@@ -96,4 +99,5 @@ You need to create a program that takes a persons DOB and outputs a special Num
 # Slide 11
 Plenary
 TEACHER TO INSERT PLENARY HERE
+
 
