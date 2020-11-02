@@ -84,8 +84,8 @@ print(word[8]+word[1]+word[2]+word[6]+word[8]
 Using a new Python window you need to follow the instructions provided in your Student Workbook.
 
 You need to create a program that takes a persons DOB and outputs a special Number
-!(a;t=special number)[assets/img/slide7.png]
 
+![](assets/img/slide7.png)
 Once completed move onto slide 10 & screenshot your program
 
 
