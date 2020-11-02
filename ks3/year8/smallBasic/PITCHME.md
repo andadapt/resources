@@ -110,7 +110,11 @@ TextWindow.WriteLine(“This is Green”)
 **On your mini-whiteboards answer the following questions:**
 
 What would the following code do?
+
+```basic
 TextWindow.WriteLine(“This is Green”)
+```
+
 ```basic
 TextWindow.ForegroundColor = “Green”
 ```
@@ -157,11 +161,11 @@ Try to complete Task 2 - Shopping List.
 
 Use the code that is given to get started and then continue creating the program so it works like the example shown.
 
-## Done?
+**Done?**
 Screenshot your code and add it to your programming diary
 
 [drag=50,drop=right]
-![](assets/img/slide11right)
+![](assets/img/slide11right.png)
 
 
 ---
