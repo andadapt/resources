@@ -83,7 +83,7 @@ Using a new Python window you need to follow the instructions provided in your 
 
 You need to create a program that takes a persons DOB and outputs a special Number
 
-![](assets/img/slide7.gif)
+![fit=1.5](assets/img/slide7.gif)
 Once completed move onto slide 10 & screenshot your program
 
 
