@@ -56,7 +56,7 @@ If it is output, “this looks like a valid phone number”
 **Your turn 🎉**
 Using a new Python window you need to follow the instructions provided in your Student Workbook.
 Create a program that takes a 5 letter word and then reverses the letters.
-![](assets/img/slide5.png)
+![](assets/img/slide5.gif)
 
 
 ---
@@ -83,7 +83,7 @@ Using a new Python window you need to follow the instructions provided in your 
 
 You need to create a program that takes a persons DOB and outputs a special Number
 
-![](assets/img/slide7.png)
+![](assets/img/slide7.gif)
 Once completed move onto slide 10 & screenshot your program
 
 
