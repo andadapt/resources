@@ -207,7 +207,6 @@ TextWindow.WriteLine(“You said “ + food + “ is your fav”)
 
 Why would this program not make sense?
 
-
 ```basic
 age = TextWindow.Read()
 TextWindow.WriteLine(“What is your age?”)
@@ -216,7 +215,7 @@ TextWindow.WriteLine(“What is your age?”)
 [drag=99, drop=center, flow=column]
 
 ## Plenary
-On your mini-whiteboards answer the following questions:
+**On your mini-whiteboards answer the following questions:**
 
 What is wrong with this code? Rewrite it so that it would work
 ```basic
