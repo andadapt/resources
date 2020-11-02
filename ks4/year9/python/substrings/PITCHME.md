@@ -41,6 +41,7 @@ o
 [drag=100, drop=center, flow=stack]
 
 ## Teacher Demonstration
+
 Create a new variable and store 07912345691
 
 This should be cast as a string already
@@ -55,6 +56,8 @@ If it is output, “this looks like a valid phone number”
 **Your turn 🎉**
 Using a new Python window you need to follow the instructions provided in your Student Workbook.
 Create a program that takes a 5 letter word and then reverses the letters.
+
+!(alt=helo bakwards)[assets/img/slide5.png]
 ---
 [drag=100, drop=center, flow=col]
 
@@ -78,6 +81,12 @@ print(word[8]+word[1]+word[2]+word[6]+word[8]
 Using a new Python window you need to follow the instructions provided in your Student Workbook.
 
 You need to create a program that takes a persons DOB and outputs a special Number
+!(a;t=special number)[assets/img/slide7.png]
+
+Once completed move onto slide 10 & screenshot your program
+
+
+
 ---
 [drag=100, drop=center, flow=col]
 
@@ -98,8 +107,8 @@ You need to create a program that takes a persons DOB and outputs a special Num
 
 ---
 [drag=100, drop=center, flow=col]
-# Slide 11
-Plenary
+
+## Plenary
 TEACHER TO INSERT PLENARY HERE
 
 
