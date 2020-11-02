@@ -56,8 +56,6 @@ If it is output, “this looks like a valid phone number”
 **Your turn 🎉**
 Using a new Python window you need to follow the instructions provided in your Student Workbook.
 Create a program that takes a 5 letter word and then reverses the letters.
-
-
 ![](assets/img/slide5.png)
 
 
