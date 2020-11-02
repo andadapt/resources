@@ -152,7 +152,7 @@ name = TextWindow.Read()
 TextWindow.WriteLine(“Your name is “ + name)
 ```
 ---
-[drag=100, drop=center, flow=column]
+[drag=100, drop=center, flow=col true]
 
 [drag=50, drop=left, flow=col true]
 ## Task
@@ -174,13 +174,12 @@ Screenshot your code and add it to your programming diary
 [drag=50, drop=left, flow=column]
 ## Task
 
-
 Try to complete Task 3 - Chat Bot
 
 
 Use the code that is given to get started and then continue creating the program so it works like the example shown.
 
-## Done? 
+**Done? **
 Screenshot your code and add it to your programming diary
 [drag=50,drop=right]
 ![](assets/img/slide12right.png)
