@@ -18,25 +18,12 @@ Also be prepared to explain your answer
 [drag=100, drop=center, flow=col]
 
 ## Sub Strings
-
+```python
 word = input("Please enter a 5 letter word: ")
 print(word[4]+word[3]+word[2]+word[1]+word[0])
+```
 
-Variable Name
-Ask the user for a word
-Outputs the character in position 4
-Outputs the character in position 3
-
-0
-1
-2
-3
-4
-H
-e
-l
-l
-o
+@table [table-header](assets/csv/substringHello.csv)
 ---
 [drag=100, drop=center, flow=stack]
 

@@ -202,6 +202,7 @@ TextWindow.WriteLine(“You said “ + food + “ is your fav”)
 ---
 
 ## Plenary
+
 **On your mini-whiteboards answer the following questions:**
 
 Why would this program not make sense?
