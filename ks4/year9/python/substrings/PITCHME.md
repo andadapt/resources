@@ -1,10 +1,13 @@
 [drag=100, drop= center, flow=col]
 ## Starter
 **Look at the code below and see if you can work out the output.**
+
 ```python
-name="MickeyMouse"
-print(name[0] + name[6])
+print(15 / 6)
+print(15 // 6)
+print(15 % 6)
 ```
+
 Put your answer on your MWB.
 Also be prepared to explain your answer
 ---
@@ -33,6 +36,7 @@ print(word[4]+word[3]+word[2]+word[1]+word[0])
 ## Teacher Demonstration
 
 Create a new variable and store 07912345691
+
 
 This should be cast as a string already
 
