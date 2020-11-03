@@ -19,7 +19,7 @@ Also be prepared to explain your answer
 
 ## Sub Strings
 
-
+**sample code **
 ```python
 word = input("Please enter a 5 letter word: ")
 print(word[4]+word[3]+word[2]+word[1]+word[0])
