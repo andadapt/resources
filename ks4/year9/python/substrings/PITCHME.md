@@ -27,7 +27,6 @@ print(word[4]+word[3]+word[2]+word[1]+word[0])
 ```
 
 @table[](assets/csv/substringHello.csv)
-
 ---
 [drag=100, drop=center, flow=stack]
 
