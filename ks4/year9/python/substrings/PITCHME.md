@@ -17,6 +17,7 @@ Also be prepared to explain your answer
 ---
 [drag=100, drop=center, flow=col]
 
+[drag=100, drop=top, flow=col]
 ## Sub Strings
 
 
