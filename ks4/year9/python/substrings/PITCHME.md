@@ -48,7 +48,7 @@ If it is output, “this looks like a valid phone number”
 
 ## Task 1 - Research 
 **Your turn 🎉**
-Using a new Python window you need to follow the instructions provided in your Student Workbook.
+Using a new Python window you need to follow the instructions provided in your Student Workbook.
 Create a program that takes a 5 letter word and then reverses the letters.
 ![](assets/img/slide5.gif)
 
@@ -73,9 +73,9 @@ print(word[8]+word[1]+word[2]+word[6]+word[8]
 
 ## Task 2 - Special Number
 **Your turn 🎉**
-Using a new Python window you need to follow the instructions provided in your Student Workbook.
+Using a new Python window you need to follow the instructions provided in your Student Workbook.
 
-You need to create a program that takes a persons DOB and outputs a special Number
+You need to create a program that takes a persons DOB and outputs a special Number
 
 ![fit=1.5](assets/img/slide7.gif)
 Once completed move onto slide 10 & screenshot your program
