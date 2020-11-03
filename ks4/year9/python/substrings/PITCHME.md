@@ -18,12 +18,15 @@ Also be prepared to explain your answer
 [drag=100, drop=center, flow=col]
 
 ## Sub Strings
+
+
 ```python
 word = input("Please enter a 5 letter word: ")
 print(word[4]+word[3]+word[2]+word[1]+word[0])
 ```
 
 @table[](assets/csv/substringHello.csv)
+
 ---
 [drag=100, drop=center, flow=stack]
 
