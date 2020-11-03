@@ -23,7 +23,7 @@ word = input("Please enter a 5 letter word: ")
 print(word[4]+word[3]+word[2]+word[1]+word[0])
 ```
 
-@table [table-header](assets/csv/substringHello.csv)
+@table [] (assets/csv/substringHello.csv)
 ---
 [drag=100, drop=center, flow=stack]
 
