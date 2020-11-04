@@ -54,7 +54,7 @@ Create a program that takes a 5 letter word and then reverses the letters.
 
 
 ---
----
+
 [drag=100, drop=center, flow=col]
 
 ## Task 2 - Special Number
