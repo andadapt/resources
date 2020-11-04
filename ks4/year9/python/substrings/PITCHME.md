@@ -54,20 +54,6 @@ Create a program that takes a 5 letter word and then reverses the letters.
 
 
 ---
-[drag=100, drop=center, flow=col]
-
-## What’s the output?
-Look at the code below;
-```python
-word = "Computer Science home" 
-print(word[8]+word[1]+word[2]+word[6]+word[8]
-+word[5]+word[1]+word[8]
-+word[6]+word[13]+word[7]+word[11]+word[14]
-+word[17]+word[19]+word[6]+word[13]+word[5])
-```
-
-## What does the code above output?
-
 ---
 [drag=100, drop=center, flow=col]
 
@@ -104,6 +90,17 @@ Once completed move onto slide 10 & screenshot your program
 [drag=100, drop=center, flow=col]
 
 ## Plenary
-TEACHER TO INSERT PLENARY HERE
+
+## What’s the output?
+Look at the code below;
+```python
+word = "Computer Science home" 
+print(word[8]+word[1]+word[2]+word[6]+word[8]
++word[5]+word[1]+word[8]
++word[6]+word[13]+word[7]+word[11]+word[14]
++word[17]+word[19]+word[6]+word[13]+word[5])
+```
+
+## What does the code above output?
 
 
