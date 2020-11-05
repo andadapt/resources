@@ -165,7 +165,7 @@ Use the code that is given to get started and then continue creating the program
 Screenshot your code and add it to your programming diary
 
 [drag=50,drop=right]
-![](assets/img/slide11right.png)
+![](assets/img/slide11right.gif)
 
 
 ---
@@ -182,7 +182,7 @@ Use the code that is given to get started and then continue creating the program
 **Done? **
 Screenshot your code and add it to your programming diary
 [drag=50,drop=right]
-![](assets/img/slide12right.png)
+![](assets/img/slide12right.gif)
 
 ---
 [drag=99, drop=center, flow=column]

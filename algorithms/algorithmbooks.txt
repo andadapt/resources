@@ -1,0 +1,929 @@
+GCSE Computer Science 9-1
+The little (not so little) book of algorithm challenges
+Algorithms Tasks
+Challenges by construct:
+
+Sequencing
+Selection
+Iteration
+
+Sequencing
+
+Sequencing 1
+Input / Output, Arrays
+Below is an array called fruit.
+
+
+The value in fruit[0,3] is Pear.
+Write an algorithm that asks the user to enter a row number and a column number. The program should then output the item of fruit in that location.
+0
+1
+2
+3
+0
+Apple
+Cherry
+Banana
+Pear
+1
+Lemon
+Orange
+Raspberry
+Damson
+2
+Grape
+Pineapple
+Peach
+Plum
+
+Sequencing 2
+Input / Output
+Write an algorithm for a program which asks the user to enter a first name and surname, and prints out the whole name.
+
+Sequencing 3
+Input / Output, Sequencing
+Write an algorithm for a program that asks the user to enter the total amount of a restaurant bill, divides it by 5 and then prints out what each person owes.
+
+Sequencing 4
+Output, Sequencing, String Manipulation
+Write an algorithm that assigns the number 5387026 to a variable. The program should then print out the number of digits in the number and the middle three digits.
+
+Sequencing 5
+Input / Output, Sequencing, String Manipulation
+Write a program that allows the user to enter a first name and surname, which may be entered in lowercase or uppercase. Output the initials in uppercase, separated by a space.
+First_name = input(“Please enter First Name”)
+Surname = input(“Please enter Surname”)
+First_initial = First_name[0].upper()
+Second_initial = Surname[0].upper()
+print(First_initial,” “,Second_initial)
+
+
+
+Sequencing 6
+Input / Output, Sequencing, String Manipulation
+Write an algorithm that allows the user to enter a character from the alphabet. It should then convert it to uppercase, and output the next character in the alphabet. If the user inputs “z”, “A” should be output.
+
+Sequencing 7
+Input / Output, Subprograms, Sequencing
+Write a procedure that accepts two parameters for oven temperature and number of eggs. The procedure should then output the temperature required and the number of eggs needed.
+For example:
+The user enters 180 for the temperature and 3 for the eggs.
+The output may look like this:
+Set the oven to 180 degrees
+You will need 3 eggs
+
+Sequencing 8
+Input, File Writing, Subprograms
+Write a procedure which allows the user to input the day and the maximum temperature, and write them to a text file called temps.txt.
+
+
+Sequencing 9
+Input / Output
+Write an algorithm to ask a user to enter their name and their age.
+It should then print the following message:
+Hello (name entered). You are (age entered) years of age.
+
+Sequencing 10
+Input / Output, Sequencing
+Write an algorithm that will ask the user to input the diameter of a wheel. It should then calculate the area (assume pi is 3.142) and output the result.
+HINT: You will need to work out the radius (this is half the diameter) and then use the following equation
+Area = 𝝅r2
+
+Sequencing 11
+Subprograms, Sequencing
+Write a function called difference() that takes a number as an integer as a parameter and returns the difference between the integer’s cube and it’s square.
+
+Sequencing 12
+Sequencing, Subprograms
+Write a function called tax() that takes the cost of a meal as a parameter and adds on 22% VAT. The total including VAT should be returned to the main program.
+
+Sequencing 13
+Input / Output , Sequencing, String Manipulation
+Write an algorithm that asks the user for their favourite singer and their favourite song. The singer’s name should be output in uppercase and the song output in lowercase.
+
+
+Sequencing 14
+Subprograms, Mathematical Operators, Sequencing
+You are required to create an algorithm that works out how many apples each person gets. Create a function called sharing() with 2 parameter called apple and people. The function should work out how many apples each person will get after they have been shared equally, if there are any apples left over these will be ignored. It should then return the answer.
+HINT: You will need to use DIV to complete this task
+
+Sequencing 15
+Input / Output, Sequencing
+Write an algorithm that asks the user to enter 3 numbers. It should then output these numbers in the opposite order.
+
+Sequencing 16
+Input / Output, String Manipulation, Sequencing
+Write an algorithm that asks the user to input 3 names, the program returns all of their lengths
+e.g. "Bob" is 3 characters in length
+
+Sequencing 17
+Write an algorithm that calculates the area of a rectangle. It should ask the user to enter the length of two sides, the area calculated and then output.
+Input / Output, Sequencing
+
+Sequencing 18
+Input / Output, Sequencing
+Write an algorithm that asks the user to enter three test scores out of 100. It should then calculate and output the average.
+
+Sequencing 19
+Input / Output, Sequencing
+A worker gets paid £7 per hour plus £0.45 for every teddy bear they make in a factory. Write an algorithm that allows the worker to enter the number of hours they have worked and the number of teddy bears they have made. The program should output their wages for the day.
+
+
+Sequencing 20
+Input / Output, Sequencing
+Write an algorithm to calculate the amount of tip that should be given in a restaurant. The user should enter the bill and the number of people. It should then work out the tip (10% of the bill). It should then output the bill including the tip and how much each person must pay.
+
+Sequencing 21
+Input / Output, Sequencing
+A number trick asks you to think of a number, double it, add six, divide it in half and then subtract the number you started with. The result should always be 3. Write an algorithm that asks a user to input a number, then carries out each of these stages and outputs the result.
+
+Sequencing 22
+Input / Output, Sequencing
+Write an algorithm that asks the user to enter their house number, street name, town or city, county and postcode. The algorithm should then output this information like shown below:
+E.g.
+45 The Street
+Leeds
+West Yorkshire
+LS15 1PW
+
+Sequencing 23
+Input / Output, Sequencing
+Write an algorithm that asks the user to enter their name, the day of their birthday this year and their birth month, it should then output this information like shown below.
+E.g.
+Hi Sarah, your birthday is on Thursday this year in November
+
+Sequencing 24
+Input / Output, Sequencing
+Write an algorithm that asks the user to enter the height, width and depth of a water tank. It should then calculate its capacity and output the result. The capacity is calculated by multiplying the height, width and depth and then dividing it by 1000.
+
+Sequencing 25
+Input / Output, Mathematical Operators, Sequencing
+Write an algorithm that calculates the volume of a cylinder. It should ask the user to enter the radius and height. It then must calculate the volume by multiplying pi (3.14159) by the radius squared by the height and output the result.
+
+Sequencing 26
+Input / Output, Sequencing
+Write an algorithm that asks the user for two numbers, adds them together and outputs, for example:
+You entered numbers 5 and 12
+They add up to 17
+
+
+
+Sequencing 27
+Input / Output, Sequencing
+Write an algorithm that asks the user to enter a temperature in degrees Fahrenheit and display the equivalent temperature in degrees Centigrade.
+The formula for conversion is Centigrade = (Fahrenheit – 32) * (5/9)
+
+
+
+Sequencing 28
+Input / Output, Sequencing
+Write an algorithm to convert a person’s height in inches into centimetres and their weight in stones into kilograms. The weight in stones can be entered as a decimal e.g. 14.6. The user should input the height and weight
+Conversion formulas:
+1 inch = 2.54cm
+1 stone = 6.364kg
+
+
+
+Sequencing 29
+Input / Output, Sequencing
+Write an algorithm that:
+Asks the user for the distance (in metres).
+Asks the user for the time in seconds that a journey was completed in. 
+Calculates and outputs the average speed using a function.
+
+
+
+Sequencing 30
+Input / Output, Sequencing
+Write an algorithm that asks the user to input how many minutes and texts they have used in the last month and then outputs the total cost of the bill. This is calculated by working out:
+The total cost of the minutes (at £0.10 per minute) and….
+Adding this to the total cost of the texts (at £0.05 per text) and….
+Adding on an additional monthly charge of £10.00.
+
+
+
+Sequencing 31
+Input / Output, Sequencing
+A gardener needs to buy some turf for a project they are working on. The garden is rectangular with a circular flower bed in the middle.
+Write an algorithm that:
+Asks the user for the dimensions of the lawn and the radius of the circle (in metres)
+Calculates and output the amount of turf needed
+
+
+
+Sequencing 32
+Input / Output, String Manipulation, Mathematical Operators, Sequencing
+Write an algorithm that calculates a check digit for a credit card number. Check digits are used to verify that a number is correct. The program should ask the user to enter a 16 digit number and add together the 4th, 8th, 12th and 16th digits of the number and then divide them by 4 to get the check digit.
+If the check digit results in a decimal number, it must be rounded to the next whole number
+
+
+Sequencing 33
+Input / Output, String Manipulation, Sequencing
+A school generates a students username from the following:
+The first 3 letters of their surname in uppercase
+The first 2 letters of their first name in uppercase
+Year they start
+
+Write an algorithm that generates a username using these rules.
+
+e.g. if Martin Kealey started in 2017 his username would be: KEAMA2017
+
+
+Sequencing 34
+Sub Programs, Sequencing
+A function exists in a program that calculates the VAT for a product, this function is called VATCalculate(). The user enters the product amount, this should then be passed to the function, and the VAT calculated. The product total including the VAT should be returned to the main program.
+Write an algorithm for this function which:
+Takes the product cost as a parameter
+Calculates the VAT amount and the product cost including VAT
+Returns the product cost including VAT
+
+
+
+Sequencing 35
+Input / Output, Sequencing
+Write an algorithm that calculates the cost of an order. The user should enter the product price and the quantity, the total should then be calculated and output.
+
+Selection
+
+Selection 1
+Input / Output, Selection
+An isosceles triangle is a triangle that has at least two equal length sides. The diagram below shows examples of isosceles triangles. In each diagram the marked sides are equal.
+
+
+Write an algorithm for a computer program that determines whether a triangle is an isosceles triangle.
+The user inputs the lengths of the three sides as Length1, Length2 and Length3.
+If any two sides have the same length the program outputs “Isosceles”
+Otherwise the program outputs “Not isosceles”
+
+Selection 2
+Input / Output, Selection, Boolean operators
+Write an algorithm to check whether a username entered by the user is equal to either “User1” or “User2”. If so, print “Access granted”, otherwise print “Access Denied”.
+
+Selection 3
+Input / Output, Selection, Subprograms
+Write a function called highlow() to accept two numbers as parameters and return the highest number of the two.
+
+Selection 4
+Sequencing, Output, Selection, Subprograms
+Write a procedure called driver() which accepts a person’s age as a parameter. If the age is less than 17, print out “You cannot hold a full driving licence”. Otherwise, print out “You are eligible for a full driving licence”
+
+Selection 5
+Input / Output, Logical Operators, Selection
+Write an algorithm for a teacher for is marking test papers. If they achieve over 50% he would like the message “Very well done” displayed. If they achieve over 90%, they should also receive a second message stating “This is an excellent result”. If they achieve a score 50% or lower, the message will be “You must try harder next time”.
+
+Selection 6
+Input / Output, Selection
+A student is writing code to ask a user to enter the month number, e.g. 1 = January and 12 = December. The user should then receive a message giving the name of the month.
+Write an algorithm using switch/case statements to solve this problem.
+
+Selection 7
+Input / Output, Selection, String Manipulation
+A courier company allows customers to track the delivery of parcels. To track a specific parcel, customers enter an eight-digit parcel number.
+Write an algorithm that checks whether the customer has entered a valid parcel number. The program should:
+Ask the user to enter a parcel number
+Output “Valid parcel number” if there are eight characters.
+Output “Not a valid parcel number” if there are not eight characters.
+
+Selection 8
+Input / Output, Sequencing, Selection, String Manipulation
+At Tom’s Tombola, every ticket number ending in either a 5 or a 0 is a winning ticket. Write an algorithm that allows the user to enter a raffle number, if it ends in a 5 or a 0 then it should output you are a winner, otherwise it should say try again next time.
+
+Selection 9
+Input / Output, Sequencing, Selection
+A garden centre is having a sale. New customers get £5 off for items costing £50 or more. Existing customers get a discount based on the stock level of the item, as shown below.
+
+Write an algorithm to calculate the cost of an item. The user will need to enter whether they are a new customer, the price and the stock level.
+Stock Level
+0-9
+10-99
+100+
+Price Reduction
+0%
+10%
+20%
+
+Selection 10
+Selection
+An electric heater has four temperature settings (0, 1, 2 and 3). The code below controls the temperature of a heater.
+SWITCH setting:
+	CASE 3:
+		temperature =50
+	CASE 2:
+		temperature = 30
+	CASE 1:
+		temperature =20 
+	CASE 0:
+		temperature = 0
+ENDSWITCH
+
+Rewrite this algorithm using a different selection statement.
+
+Selection 11
+Selection, Boolean Operators
+A car park barrier will only open if the driver inserts a paid ticket or a valid permit.
+Write an algorithm using boolean variables barrierUp, ticketPaid and permitValid that will check the status of a driver’s ticket or permit before opening the barrier.
+NOTE: You do not need to worry about the input, just consider the values of the boolean variables.
+
+Selection 12
+Input, Selection, Boolean Operators
+A tumble dryer will only be allowed to start if all of the following conditions are met:
+The real variable weight is more than 1.5 and less than 15.0
+The boolean variable doorClosed is true.
+Write an algorithm that allows the user to enter the weight of the clothes and whether the door is closed. It should then set a boolean variable start to either true or false.
+
+Selection 13
+Selection, Subprograms
+An exercise bike adjusts the difficulty depending on the heart rate of the user.
+Write a procedure called adjustLevel() that takes the heartRate as a parameter and adjusts the difficulty level as stated below:
+If their heart rate is below 90 than the difficulty level should be increased by 1
+If their heart rate is over 140 then the difficulty level should be decreased by 1
+If their heart rate is over 160 then the difficulty level should be set to 0 and the warning message “Slow Down!” should appear.
+
+Selection 14
+Input / Output, Selection
+Write an algorithm that asks the user to enter a name. If the name is John, George, Ringo, or Paul.  If one of those names is True, output “Hey that’s the name of a Beatle!”.
+If not, output “That’s a nice name”.
+
+
+
+Selection 15
+Input / Output, Selection
+Write an algorithm that asks the user to enter how many goals were scored in a football match.
+If no goals were scored, it should output “the game was a bore draw!”
+1-­2 goals: “Not the most interesting game”
+3-­5 goals: “It was a very interesting game”
+6+ goals: “The football match was an unmissable game!”
+
+
+
+Selection 16
+Input / Output, Selection
+Write an algorithm that asks the user to input a number. If the number is greater than 50, display, “over 50% chance to win”, else if the number is less than 50, display “less than 50% chance to win”, else display “you have a 50% chance to win”.
+
+
+
+Selection 17
+Input / Output, String Manipulation, Selection
+Write an algorithm that asks user for firstname and surname of a person. It should then display the total length of the firstname and surname. If the total length of the name is more than 20 characters it should output “Wow, long name!”
+
+Selection 18
+Input / Output, String Manipulation, Sequencing, Selection
+Write an algorithm that asks the user to input 3 names, the program returns the longest name and its length,
+e.g. if "Bob", "Jeremy" and "Caspasius" have been input, "Caspasius", 9 will be output
+
+
+Selection 19
+Input / Output, Selection
+Write an algorithm that asks the user to enter a number. If the number is above 5 it should output, high number, otherwise output low number.
+
+Selection 20
+Input / Output, Selection
+Write an algorithm that asks the user to input 2 numbers. If the first number is larger it should output the sum of the two numbers, otherwise it should output the difference.
+
+Selection 21
+Input / Output, Selection
+Write a program that asks the user to enter an integer. The program should half the integer and round it down. It should then say whether the number is even or odd.
+E.g user enters 7, half of 7 rounded down is 3, therefore it will say odd.
+
+Selection 22
+Output, Selection
+Write an algorithm that calculates whether a bus or a car is more environmentally friendly and outputs the name of that type of transport. A car can carry 5 people and generates 200g of CO2 per mile, a bus can carry 40 people and generated 1000g of CO2 per mile.
+
+Selection 23
+Input / Output, Selection, String Manipulation
+Write an algorithm that asks the user to enter a word. The program should then find the middle letter of that work, e.g. if “Jeremia” is input, it will output “e”. If the word length is even it should divide in 2 and round DOWN. e.g. “Jeremy” would output “r”
+
+Selection 24
+Input / Output, Selection, Logical Operators
+Write an algorithm that calculates the cost of a person’s car tax. The user will input the year of their vehicle and whether it is diesel or petrol. It should then output the appropriate cost.
+Use the table below for the different costs:
+
+Petrol
+Diesel
+2010+
+£30
+£80
+2000-2009
+£40
+£100
+<2000
+£60
+£120
+
+Selection 25
+Input / Output, Selection
+Write an algorithm that tells the user what to do based on the day of the week. The user must enter a day of a the week. If it is a weekday it should output “you have to go to school to learn new things,” if it is a Saturday it should output “have a lay in,” if it is a Sunday it should say “School tomorrow”
+
+Selection 26
+Input / Output, Selection
+A worker gets paid £7 per hour or £1 for every teddy bear they make in a factory, whichever is greater. Write an algorithm that allows the worker to enter the number of hours worked and the number of teddy bears they have made. It should then output the larger of those two numbers to ensure that the worker gets the maximum wage.
+
+Selection 27
+Input / Output, String Manipulation, Mathematical Operators, Selection
+Write an algorithm that validates a bank card number. Bank cards are validated by a checksum. The checksum adds the 1st, 5th and 11th digit and then divides it by 3 and rounds up. This number should be the same as the 16th digit. The algorithm should then output whether the card number is valid or invalid.
+
+Selection 28
+Input / Output, Selection
+Write an algorithm that asks the user to enter an 8-bit binary number. It should then convert this from binary to denary.
+For example:
+00101101 was entered it should output 45.
+
+Selection 29
+Input / Output, Mathematical Operators, Selection
+Write an algorithm that works out whether an 8-bit binary number is even or odd. The user will need to enter a number, it should then output whether it is odd or even.
+
+Selection 30
+Input / Output, Selection
+Write an algorithm for a dice game. The user will roll three dice and enter the number on each dice. It should then calculate their score, using the following rules:
+If all three numbers are equal, the score is the total of the three dice
+If two numbers are equal, the score is equal to the sum of the two equal dice minus the third.
+If none are equal the score is zero.
+
+Selection 31
+Input / Output, Selection
+Write an algorithm that asks the user to enter the capital city of England. If they enter “London” say correct, otherwise say try again.
+
+Selection 32
+Input / Output, Selection
+Write an algorithm that calculates the cost of a taxi fare. The user will input the number of kilometres and the number of passengers. They get charged £3 for the first kilometre and £2 for every kilometre after that. If there are more than 5 passengers, then there is an additional 50% added to the cost.
+
+
+
+Selection 33
+Input / Output, Selection
+Write an algorithm that asks the user to enter a temperature of water in a container in degrees Fahrenheit. The program should convert the temperature that is in Fahrenheit into centigrade and display a message stating whether the water is frozen (zero or below), boiling (100 or greater) or neither.
+The formula for conversion is 
+Centigrade = (Fahrenheit – 32) * (5/9)
+
+
+
+Selection 34
+Input / Output, Selection
+A train fare is calculated in the following way:
+£20 per station from start to destination for adults.
+Half price for children.
+Write an algorithm that allows the user to enter how many stations they need to pass through, how many adults and how many children. The program should then calculate the correct fare.
+
+
+
+Selection 35
+Input / Output, Selection
+Write an algorithm that asks the user to input the number of letters in the alphabet. The program must then output whether they got it correct or incorrect.
+
+Selection 36
+Input / Output, Selection
+A company calculates holiday allowance for employees. The company gives each employees 28 days holiday each year. Holidays are awarded based on the following rules:
+Full time employees who work 5 days a week get 28 days holiday a year
+Part time employees get a proportion of holiday allowance based on how many days they work, e.g. An employee who works 1 day a week would only get 1/5th of the holidays allowed.
+Write an algorithm that allows the user to enter how many days a week they work, and then it should output the amount of holiday they get.
+
+
+Selection 37
+Input / Output, Selection
+Write an algorithm that:
+Asks the user to name one of the Olympic Values (Respect, Excellence and Friendship)
+If they correctly name one, output 'That’s correct‘
+Otherwise outputs ‘Incorrect’
+
+
+
+Selection 38
+Input / Output, Selection
+A local swimming centre offers the following discounts:
+Members who are aged between 13 and 15 receive a 30% discount.
+Members who are aged between 16 and 17 receive a 20% discount.
+Members who are aged 50 and over receive a 40% discount.
+All other members receive no discount.
+Write an algorithm that asks the user to enter their age and then it should output the amount of discount they get.
+
+
+
+Selection 39
+Input / Output, Sequencing, Mathematical Operators, Selection
+Write an algorithm that:
+Asks the user to input many cars are available for a trip.
+Asks the user to input how many people are going on the trip.
+If there are enough seats it should output ‘We have enough seats’
+If there are not enough seats it calculate how many extra cars are needed and then output ‘Another x cars are needed’ with x being the number of cars.
+
+
+
+Selection 40
+Input / Output, Selection
+When keeping fish, one of the goals to reduce algae is to keep nitrates to a minimum. One way of doing this is to dose a carbon source to reduce the algae.
+Write an algorithm that:
+Asks the user to enter the nitrate level (a number between 0 and 50)
+Output the correct dosage based on the following:
+More than 10 = 3ml, between 2.5 and 10 = 2ml, between 1 and 2.5 = 1ml, below 1, 0.5ml
+
+
+Selection 41
+Sub Programs, Sequencing, Selection
+A company has a system that allows you to enter the takings from sales during the week and then will decide whether a good profit has been made. The company uses a function called goodWeek() to calculate whether enough profit has been made.
+
+Using whatever sales have been made, £300 must be taken off to pay for the building and staff. If there is more than £100 after that a good week has been had.
+
+Write an algorithm for this function which:
+Takes the weekly takings as a parameter
+Calculates the amount left after the £300 has been taken off
+Checks to see if the amount left is more or less than £100 and returns either True or False
+
+Selection 42
+Input / Output, Selection
+A dog that is 5 years old is equivalent to a 42 year old human. Ashok is writing a program which converts the age of a dog to the equivalent age for a human.
+Write an algorithm to calculate and output the human equivalent of the age of a dog using the following method:
+The user inputs age of the dog in years
+If the age is 2 or less, the human equivalent is 12 times the age
+If the age is more than 2, the human equivalent is 24 for the first 2 years, plus 6 for every additional year.
+
+Selection 43
+Input / Output, Selection
+The user should input a username and check if it if equal to MANH123. If it is, input a user password and check if the password is equal to XYZ123a, otherwise output a message saying “Invalid user name”. If the password is correct, output “Access granted”, otherwise output a message “Invalid password”
+Write  an algorithm for this process.
+
+Selection 44
+Input / Output, Sequencing, Selection
+A company that rents cars has a program that works out how much car rentals cost. The company has two types of car category, each has different daily charges, and these are:
+Category A - £50 per day
+Category B - £25 per day
+Write an algorithm where the user will enter the category of car and how many days they want it. It then works out the rental cost and output it. 
+
+
+Iteration
+
+Iteration 1
+Input/Output, Selection, Iteration
+Write an algorithm that asks the user to enter a value until they indicate there are no more by entering “DONE”, then output the highest and lowest values.
+
+Iteration 2
+Output, Iteration
+Write an algorithm to calculate the sum of the first five odd numbers starting from 0.
+
+Iteration 3
+Input / Output, Iteration
+Write an algorithm to output the squares of the integers from 1 to a number entered by the user.
+
+Iteration 4
+Output, Iteration
+Write an algorithm to add up the numbers from 1 to 100.
+
+Iteration 5
+Input / Output, Iteration
+Write an algorithm that allows the user to enter the top speed of a number of cars. It should keep asking the user for a top speed until they enter “-1.” The average top speed of all the cars should then be output.
+
+Iteration 6
+Input / Output, Selection, Iteration
+Write an algorithm which inputs 10 numbers. Each time a number less than zero is input, the program displays which number it is, and its value. When all the numbers have been input, it should display the average of all the negative numbers. Your algorithm should allow for the fact that there may be no negative numbers.
+Sample output could be, for example:
+Number 3  -8
+Number 7  -20
+Average of negative numbers = -14
+
+Iteration 7
+Input / Output, Selection, Iteration
+Write an algorithm that allows to user to choose how many numbers they want to input. The program should then allow the user to input that many numbers and output how many numbers are greater than 60 at the end.
+
+Iteration 8
+Input / Output, Selection, Iteration
+Write an algorithm that allows for the user to choose how many numbers to input. The user should then input their numbers and the program should output how many of those numbers are negative and how many are positive.
+
+Iteration 9
+Input / Output, Iteration
+Write an algorithm that allows the user three attempts to guess the correct password “compScience”, otherwise it will say “Account locked”
+
+Iteration 10
+Input / Output, Selection, Iteration
+Write an algorithm which allows a user to enter daily temperatures and when the user enters xxx, it should output the maximum and average of the temperatures entered.
+
+Iteration 11
+Input / Output, Iteration
+Karl and John are playing snap. Write an algorithm that:
+Asks whether player 1 or player 2 has won the game.
+After ten games checks who has won more and displays the winner’s name or tells them that it’s a draw.
+
+Iteration 12
+Input, Iteration, File Reading
+Omar has written an adventure story in the file adventure.txt.
+Write an algorithm that allows a user to print Omar’s adventure story one line at a time.
+Each time the user presses the “y” key the next line of the story should be printed.
+The algorithm should end when it’s at the end of the text file.
+
+Iteration 13
+Input / Output, Selection, Iteration, Arrays
+The top 5 high scores in an arcade game are stored in the highscores array shown below.
+
+Write an algorithm that allows the user to enter a score. The program should then let them know whether their score is one of the top five scores by checking the highscores array.
+0
+1
+2
+3
+4
+Score
+510 000
+453 000
+442 000
+440 500
+429 000
+
+Iteration 14
+Arrays, Iteration
+Kerry owns a cupcake shop which sells the following flavours of cupcake:
+
+Write an algorithm that will display the list of cupcakes from the array called cupcakes in the order they appear above.
+Vanilla
+Banana
+Strawberry
+Cherry
+Caramel
+
+Iteration 15
+Input / Output, Iteration, Arrays
+John and three of his friends are training to run a marathon. John records how many miles he and three friends ran each day last week. John stores the data in a 2D array called distanceRun.
+
+
+
+The distance run on day 0 by runner 2 is given by distanceRun[0,2].
+Write an algorithm that takes a runner number as an input and outputs the total number of miles that they ran over the week.
+0
+1
+2
+3
+4
+5
+6
+0
+9
+10
+8
+12
+0
+6
+9
+1
+10
+12
+15
+15
+0
+0
+10
+2
+15
+14
+13
+16
+0
+8
+9
+3
+6
+8
+9
+10
+12
+12
+0
+Days of the week
+Runner
+
+Iteration 16
+Input / Output, Iteration, Selection, Subprograms
+The function roll(n) simulates the outcome of a random roll of a n-sided dice. E.g. roll(6) would randomly return either 1, 2, 3, 4, 5 and 6.
+Write an algorithm that uses this function in a dice game where two identical dice are rolled together.
+The player can choose the number of sides that the dice have.
+The player’s score is the number of rolls it takes until both dice land on the same number.
+
+Iteration 17
+Input / Output, Iteration
+Write an algorithm that asks the user for a number. It should then display the times table of that number up to the number 20 then display “the end”.
+
+
+
+Iteration 18
+Input / Output, Selection, Iteration
+Write an algorithm that asks the user if they want to pick a name or a number, if the user picks name, ask the user for a name then display that name 10 times using a for loop. If the user picks number, ask the user for a number then display the times table of that number up to the number 10, if they choose anything else display an error message.
+
+
+
+Iteration 19
+Input / Output, Selection, Iteration
+Write an algorithm that asks the user to input a number. The program should then count up from 0 and for every other number say “boo”.
+E.g. 0, boo, 2, boo, 4, boo etc 
+
+Iteration 20
+Output, Selection, Iteration, Mathematical Operators
+Write the algorithm to count up from 1 to 30, outputting the numbers as it goes along and outputting exclamation marks next to all numbers divisible by both 3 and 4.
+HINT: You will need to use MOD to do this.
+
+
+Iteration 21
+Arrays, Selection, Iteration, Output
+Write an algorithm that will iterate through a 1D array that contains 10 values For any element larger than 10, it will subtract 10 from that element. It should output each element as it goes through the array.
+E.g. If the array holds [3,5,1,23], the output will be 3, 6, 1, 13 because 23 is greater than 10, so 23-10 = 13.
+
+Iteration 22
+Arrays, Mathematical Operators, Selection, Iteration
+Write an algorithm that contains an array. The program should check each item in the array and output whether each element is odd or even. The array length can vary.
+E.g if the array contained [3,6,4,5] it should say 3 odd, 6 even, 4 even, 5 odd.
+
+Iteration 23
+Input / Output, Arrays, Selection, Iteration
+Write an algorithm that contains an array with 10 values in it. The program should allow the user to enter a number. Each value in the array should be checked to see if the value entered is in the array or not. It should say “number found” if it is, “number not found” if it isn’t.
+
+Iteration 24
+File Reading, Selection, Iteration
+There is a file called “pups.csv” that has the following format:
+Bobby, 33
+Johnny, 22
+Amir, 56
+……
+Cecilius, 78
+Write a program that will read this file and output the name with the highest number of points.
+
+Iteration 25
+Input / Output, String Manipulation, Selection, Iteration
+Write an algorithm that asks the user to enter a word or phrase. It should then display every other letter in alternating case: upper/lower
+E.g. “Hello people” would become “HeLlO PeOpLe”
+
+Iteration 26
+Arrays, Iteration
+There are two arrays, one called names and one called scores, each have 4 elements in. Write an algorithm that iterates through both arrays, displaying the name and the score side by side if they have scored above 40 points.
+E.g. names = [“Bob”, “Cecil”, “Nora”, “Amir”]
+        scores = [45,34,89,100]
+
+Will output:
+Bob - 45 points
+Nora - 89 points
+Amir - 100 points
+
+Iteration 27
+Arrays, Selection, Iteration
+There are two arrays, one called names and one called scores, each have 4 elements in. Write an algorithm asks the user to enter a name. It should then find the name in the names array and remember its index. It should then output the score from the other array. If the name cannot be found, it should say “Name not in list”
+E.g. names = [“Bob”, “Cecil”, “Nora”, “Amir”]
+        Scores = [45,34,89,100]
+
+“Cecil” input by the user
+
+Will output:
+Cecil - 34 points
+
+
+Iteration 28
+Input / Output, Iteration
+Write an algorithm that asks the user to enter the number of green bottles, the program should then count down the number of green bottles like shown below:
+9 green bottles sitting on the wall
+8 green bottles sitting on the wall
+7 green bottles sitting on the wall etc.
+
+Iteration 29
+Input / Output, Iteration
+A worker wants a program to keep track of how many hours they have worked during any particular week. Write an algorithm where the user enters the number of days that they have worked. The program should then ask them to enter the hours worked for each day and then output the total.
+
+Iteration 30
+Input / Output, Arrays, Selection, Iteration
+Alina has stored her computer science marks in an array named ‘marks’. The array contains ten values. Write an algorithm that asks the user to enter a mark and then outputs the number of marks in the array that are:
+Equal to it
+Less than it
+Greater than it
+
+Iteration 31
+Input / Output, String Manipulation, Selection, Iteration
+Write an algorithm that identifies the vowels and consonants in a word. The user should enter a 5 letter word and it should display which letters in the word are vowels and which are consonants.
+E.g
+“black is entered”
+Vowels: a
+Consonants: blck
+
+Iteration 32
+Input / Output, String Manipulation, Selection, Iteration
+Write an algorithm where a 5 digit number is entered. Each number should be stored separately. The program must calculate a total using the following rules:
+If it is the first, third or fifth number it should be added to the total
+If it is the second or fourth number it should be subtracted from the total
+
+
+
+Iteration 33
+Input, Iteration, File Writing
+Write an algorithm that allows the user to add products to a file. When the program is run it should ask the user for an 8 digit barcode, a description and a price. It should then add this information to the file called products.csv. It should repeat this until the user does not want to enter any more products by entering “STOP”
+
+Iteration 34
+Input / Output, Selection, Iteration
+Write an algorithm that:
+Ask the user to input how many GCSE’s they have.
+They should then be allowed to enter a result for each GCSE grade.
+The computer should work out how many points they have got (9=9, 8=8, 7=7 etc).
+If their score is 40 or over it should output ‘You can go to the sixth form’
+If they their score between 35 and 39 it should output ‘A discussion is needed’
+Otherwise it should say ‘Sorry not enough points.’
+
+Iteration 35
+Input / Output, Selection, Iteration
+Roger has switched to a new electric supplier. He will receive free electric one day a week. He will not pay for the day that he uses the least amount of electric. 
+
+Write an algorithm that will:
+Allow the user to input the day of the week and then unit of units of electric used.
+Compare them until all comparisons are completed.
+Output the day that will be free of charge.
+
+
+
+Iteration 36
+Input / Output, String Manipulation, Selection, Iteration
+A gamertag is a username on a games console that other players can identify the player with. There are some limitations to them, such as, it cannot be longer than 15 characters.
+Write an algorithm that:
+Asks the user to input their desired gamertag
+It checks if the length is less than 15 characters
+If it is then it should output gamertag accepted, if it isn’t it should keep asking them to enter a
+gamertag until it meets the requirements
+E.g.
+Enter the gamertag: outwoodgam4r1234567
+Your gamertag is too long
+Enter the gamertag: outwoodgam4r
+gamertag accepted
+
+
+Iteration 37
+Arrays, Iteration
+Consider the array 
+numbers = [2, 5, 3, 6, 2, 3, 6, 4] 
+where the value of numbers[2] is 3.
+
+Write an algorithm that adds together all of the numbers in the array using iteration.
+
+
+Iteration 38
+Input / Output, Sequencing, Iteration, String Manipulation
+An encryption program works by asking the user to enter a word and the shift of the number when encryption. For example if the letter “a” was input and the shift was three it would become “d”
+Write an algorithm that encrypts a word based on the shift given by the user.
+HINT: You will need to make use of the following pseudocode to complete this task:
+ASC(character) – turns a character into an ASCII value
+CHR(asciinumber) turns an ASCII value into a character
+
+
+Iteration 39
+File Reading, Selection, Iteration
+A file called testScores.txt contains information about test scores from different students. A sample of the file structure can be seen below:
+
+
+Write an algorithm that:
+Opens the file and checks every test score
+Count how many test scores are above 40
+After checking the entire file output how many students had a test score above 40
+
+
+
+Iteration 40
+Ararys, Iteration
+The program in a vending machine uses an array called Coins to store the value in pence of all the coins that have been entered in the current sale. A maximum of 10 coins can be entered.
+Here is an example of the Coins array.
+
+In the example above, the value of Coins[1] is 10.
+Write an algorithm to calculate the total value of the coins entered in the current sale using the contents of the array Coins.
+
+
+Iteration 41
+Input / Output, Selection, Iteration
+A computer game has a stored number. The game gives the user 10 attempts to guess what the number is. If the user has got it correct, the game congratulates them and it ends. If the user has guessed it incorrectly, the game tells the user if the number is higher or lower than their guess.
+
+Write an algorithm that:
+Stores a number for the user to guess
+Asks the user to guess the number
+Outputs “congratulations” if the guess is correct
+Outputs if the user needs to guess lower or higher
+Allow the user 10 attempts to guess the number if needed.
+
+Iteration 42
+Arrays, Iteration
+Heath is research how long, to the nearest minute, each student in his class spends playing computer games in one week (Monday to Friday). He is storing the data in a 2D array called gaming.
+
+
+
+
+
+For example, student 1, on Monday (day 0), played 30 minutes of computer games.
+
+Write an algorithm to output the total number of minutes student 0 played computer games from Monday (day 0) to Friday (day 4).
+
+Iteration 43
+Input / Output, Iteration
+Write an algorithm that allows a user to enter two numbers, the second number should be higher than the first number. The program should then display both numbers entered and all of the numbers in between them in numerical order.
+
+Iteration 44
+Input / Output, Selection, Iteration
+Write an algorithm that asks the user for a traffic light colour, if the user answers green, display go, otherwise ask the question again until the user answers green. 
+
+Iteration 45
+Input / Output, Selection, File Reading, File Writing, Iteration
+Create an algorithm that asks the user for a username and password and stores it in a text file called usernames.txt. It should then display username and password has been stored. It should then ask the user for a username and password. If the user enters the correct details by reading from the file, it should display “you have entered the correct details”, otherwise display incorrect details.
+
+Iteration 46
+Sub Programs, String Manipulation, Sequencing, Selection, Iteration
+All passwords must be at least 8 characters and include a number. There is a function called passwordCheck() to decide whether the password entered meets the complexity requirements.
+
+Write an algorithm for this function which:
+Takes the password entered as a parameter
+Checks to make sure that the length of the password is at least 8 characters
+Checks each character of the password to make sure at least one of them is a number
+If the requirements are met the function should return True otherwise return False
+
+
