@@ -14,16 +14,17 @@ Also be prepared to explain your answer
 [drag=100, drop=center, flow=col]
 
 ## Python - Sub Strings
-**ASPIRE TO:** Apply sub strings to meet a success criteria
+[drag=100, drop=center, flow=stack]
 
-**CHALLENGE TO:** Describe how sub strings are used in Python
+**ASPIRE TO:** 
+Apply sub strings to meet a success criteria
+
+**CHALLENGE TO:**
+Describe how sub strings are used in Python
 ---
 [drag=100, drop=center, flow=col]
-
-
 ## Sub Strings
-
-
+[drag=100, drop=center, flow=stack]
 ```python
 word = input("Please enter a 5 letter word: ")
 print(word[4]+word[3]+word[2]+word[1]+word[0])
@@ -31,12 +32,11 @@ print(word[4]+word[3]+word[2]+word[1]+word[0])
 
 @table[](assets/csv/substringHello.csv)
 ---
-[drag=100, drop=center, flow=stack]
+[drag=100, drop=center, flow=col]
 
 ## Teacher Demonstration
-
+[drag=100, drop=center, flow=stack]
 Create a new variable and store 07912345691
-
 
 This should be cast as a string already
 
@@ -66,8 +66,6 @@ You need to create a program that takes a persons DOB and outputs a special Numb
 ![fit=1.5](assets/img/slide7.gif)
 Once completed move onto slide 10 & screenshot your program
 
-
-
 ---
 [drag=100, drop=center, flow=col]
 
@@ -82,9 +80,12 @@ Once completed move onto slide 10 & screenshot your program
 [drag=100, drop=center, flow=col]
 
 ## Python - Sub Strings
-**ASPIRE TO:** Apply sub strings to meet a success criteria
+[drag=100, drop=center, flow=stack]
+**ASPIRE TO:** 
+Apply sub strings to meet a success criteria
 
-**CHALLENGE TO:** Describe how sub strings are used in Python
+**CHALLENGE TO:** 
+Describe how sub strings are used in Python
 
 ---
 [drag=100, drop=center, flow=col]
