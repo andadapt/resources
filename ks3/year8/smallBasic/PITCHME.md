@@ -1,5 +1,5 @@
 
-[drag=99, drop=center, flow=column]
+[drag=99, drop=center, flow=stack]
 # Small Basic - Lesson 3 
 ## Input / Output
 
@@ -9,9 +9,9 @@ apply the methods of input and output in a variety of scenarios
 **CHALLENGE to:**
 construct a program that allows the user to input and output data
 ---
-[drag=100, drop=center, flow=column]
+[drag=100, drop=center, flow=col]
 
-[drag=50, drop=left, flow=column]
+[drag=50, drop=left, flow=col]
 ## Starter
 **Can you solve the following problem?**
 
@@ -30,7 +30,7 @@ construct a program that allows the user to input and output data
 
 ---
 
-[drag=100, drop=center, flow=column]
+[drag=100, drop=center, flow=col]
 
 ## Small Basic
 
@@ -73,7 +73,7 @@ Can you use TextWindow.Write() to change the colour of your text like shown belo
 ![](assets/img/slide4right.png)
 
 ---
-[drag=99, drop=center, flow=column]
+[drag=99, drop=center, flow=col]
 
 ## Progress Check
 **On your mini-whiteboards answer the following questions:**
@@ -83,7 +83,7 @@ What would the following code do?
 TextWindow.WriteLine(“Welcome to Computer Science”)
 ```
 ---
-[drag=99, drop=center, flow=column]
+[drag=99, drop=center, flow=col]
 
 ## Progress Check
 **On your mini-whiteboards answer the following questions:**
@@ -119,7 +119,7 @@ TextWindow.WriteLine(“This is Green”)
 TextWindow.ForegroundColor = “Green”
 ```
 ---
-[drag=99, drop=center, flow=column]
+[drag=99, drop=center, flow=col]
 
 ## Progress Check
 **On your mini-whiteboards answer the following questions:**
@@ -134,7 +134,7 @@ TextWindow.Write()
 TextWindow.WriteLine()?
 ```
 ---
-[drag=99, drop=center, flow=column]
+[drag=99, drop=center, flow=col]
 ## Taking Input
 
 So you now know how to display text on screen, but what about taking input from the user, you can do this will the following command.
