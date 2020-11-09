@@ -14,7 +14,7 @@ Also be prepared to explain your answer
 [drag=100, drop=center, flow=col]
 
 ## Python - Sub Strings
-[drag=100, drop=center, flow=stack]
+[drag=85, drop=center, flow=stack]
 
 **ASPIRE TO:** 
 Apply sub strings to meet a success criteria
