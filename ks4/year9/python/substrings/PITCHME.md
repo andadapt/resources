@@ -11,10 +11,10 @@ print(15 % 6)
 Put your answer on your MWB.
 Also be prepared to explain your answer
 ---
-[drag=100, drop=center, flow=col]
+[drag=100, drop=center, flow=stack]
 
 ## Python - Sub Strings
-[drag=85, drop=center, flow=stack]
+
 
 **ASPIRE TO:** 
 Apply sub strings to meet a success criteria
@@ -22,9 +22,9 @@ Apply sub strings to meet a success criteria
 **CHALLENGE TO:**
 Describe how sub strings are used in Python
 ---
-[drag=100, drop=center, flow=col]
-## Sub Strings
 [drag=100, drop=center, flow=stack]
+## Sub Strings
+
 ```python
 word = input("Please enter a 5 letter word: ")
 print(word[4]+word[3]+word[2]+word[1]+word[0])
@@ -32,10 +32,10 @@ print(word[4]+word[3]+word[2]+word[1]+word[0])
 
 @table[](assets/csv/substringHello.csv)
 ---
-[drag=100, drop=center, flow=col]
+[drag=100, drop=center, flow=stack]
 
 ## Teacher Demonstration
-[drag=100, drop=center, flow=stack]
+
 Create a new variable and store 07912345691
 
 This should be cast as a string already
@@ -77,10 +77,10 @@ Once completed move onto slide 10 & screenshot your program
 - Evaluate - on slide 13 there is an example program that has been created for you. You should answer the question.
 @ol
 ---
-[drag=100, drop=center, flow=col]
+[drag=100, drop=center, flow=stack]
 
 ## Python - Sub Strings
-[drag=100, drop=center, flow=stack]
+
 **ASPIRE TO:** 
 Apply sub strings to meet a success criteria
 
