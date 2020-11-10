@@ -1,6 +1,6 @@
 [drag=100, drop=center, flow=col]
 
-[drag=50, drop=left, flow=col]
+[drag=50, drop=left, flow=col true]
 ### Starter
 
 
