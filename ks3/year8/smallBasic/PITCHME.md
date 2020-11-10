@@ -64,8 +64,8 @@ TextWindow.WriteLine(“Hello World”)
 
 Open the Small Basic website at:
 
-### http://computing.outwood.com/smallbasic
 
+### https://bit.ly/OAAdSB
 Complete Task 1 under lesson 3, can you change the colour of the foreground/background?
 
 **Extension:**
