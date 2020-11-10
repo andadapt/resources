@@ -4,7 +4,7 @@
 ## Starter
 **Can you solve the following problem?**
 
-```basic
+```basic [fit=0.6]
 Turtle.Move(100)
 Turtle.PenUp()
 Turtle.Turn(90)
