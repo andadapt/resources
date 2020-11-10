@@ -4,18 +4,21 @@
 ## Starter
 **Can you solve the following problem?**
 
-
-- Each shape contained within the largest square is also a Square.
-
-
-- The number in each square gives the length of its sides.
-
-- What are the values of A, B, C and D?
-
-
-
-[drag=50,drop=right]
-![](assets/img/test.png)
+```basic
+Turtle.Move(100)
+Turtle.PenUp()
+Turtle.Turn(90)
+Turtle.Move(50)
+Turtle.Turn(90)
+Turtle.PenDown()
+Turtle.Move(100)
+Turtle.PenUp()
+Turtle.Turn(270)
+Turtle.Move(50)
+Turtle.PenDown()
+Turtle.TurnLeft()
+Turtle.Move(100)
+```
 
 ---
 
