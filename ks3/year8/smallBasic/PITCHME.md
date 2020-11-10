@@ -1,14 +1,3 @@
-
-[drag=99, drop=center, flow=stack]
-# Small Basic - Lesson 3 
-## Input / Output
-
-**ASPIRE to:**
-apply the methods of input and output in a variety of scenarios
-
-**CHALLENGE to:**
-construct a program that allows the user to input and output data
----
 [drag=100, drop=center, flow=col]
 
 [drag=50, drop=left, flow=col]
@@ -28,6 +17,17 @@ construct a program that allows the user to input and output data
 [drag=50,drop=right]
 ![](assets/img/test.png)
 
+---
+
+[drag=99, drop=center, flow=stack]
+# Small Basic - Lesson 3 
+## Input / Output
+
+**ASPIRE to:**
+apply the methods of input and output in a variety of scenarios
+
+**CHALLENGE to:**
+construct a program that allows the user to input and output data
 ---
 
 [drag=100, drop=center, flow=col]
