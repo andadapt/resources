@@ -1,10 +1,10 @@
 [drag=100, drop=center, flow=col]
 
 [drag=50, drop=left, flow=col]
-## Starter
-**Can you solve the following problem?**
+### Starter
 
-```basic [fit=0.6]
+
+```basic 
 Turtle.Move(100)
 Turtle.PenUp()
 Turtle.Turn(90)
