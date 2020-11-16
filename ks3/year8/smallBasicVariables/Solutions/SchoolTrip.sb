@@ -1,0 +1,8 @@
+TextWindow.WriteLine("How many year 7s are there?")
+year7 = TextWindow.Read()
+TextWindow.WriteLine("How many year 8s are there?")
+year8 = TextWindow.Read()
+TextWindow.WriteLine("How many coaches are there?")
+coaches = TextWindow.Read()
+studentsPerCoach = (year7 + year8)/coaches
+TextWindow.WriteLine("You will need " + Math.Round(studentsPerCoach) + " students on each coach")

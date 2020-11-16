@@ -1,0 +1,6 @@
+TextWindow.WriteLine("Enter the start temperature:")
+startTemp = TextWindow.Read()
+TextWindow.WriteLine("Enter the end temperature:")
+endTemp = TextWindow.Read()
+difference = endTemp-startTemp
+TextWindow.WriteLine("The difference between the starting temperature and the end temperature was " + difference)

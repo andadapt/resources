@@ -1,0 +1,5 @@
+cards = 52
+TextWindow.WriteLine("Enter the number of players:")
+players = TextWindow.Read()
+cardsEach = cards / players
+TextWindow.WriteLine("With " + players + " players, you should have " + Math.Floor(cardsEach) + " cards each")

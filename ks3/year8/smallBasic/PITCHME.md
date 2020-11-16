@@ -5,19 +5,10 @@
 
 
 ```basic 
-Turtle.Move(100)
-Turtle.PenUp()
-Turtle.Turn(90)
-Turtle.Move(50)
-Turtle.Turn(90)
-Turtle.PenDown()
-Turtle.Move(100)
-Turtle.PenUp()
-Turtle.Turn(270)
-Turtle.Move(50)
-Turtle.PenDown()
-Turtle.TurnLeft()
-Turtle.Move(100)
+TextWindow.WriteLine("hellow, world!")
+TextWindow.Write("Basic is ")
+TextWindow.Write("awesome")
+TextWindow.WriteLine("!!!")
 ```
 
 ---
@@ -186,6 +177,23 @@ Use the code that is given to get started and then continue creating the program
 Screenshot your code and add it to your programming diary
 [drag=50,drop=right]
 ![](assets/img/slide12right.gif)
+
+---
+[drag=100, drop=center, flow=stack]
+
+## task
+
+🌈🌈🌈🌈🌈🌈🌈🌈
+
+Using:
+
+```basic
+TextWindow.BackgroundColor="red:
+TextWindow.ForegroundColor="yellow"
+```
+
+Create some rainbow output!
+
 
 ---
 [drag=99, drop=center, flow=column]

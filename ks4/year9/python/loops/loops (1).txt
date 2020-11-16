@@ -1,0 +1,193 @@
+Programming beep test
+Open the FOR/WHILE Loops - Programming Beep Test from Google Classroom.
+Try to complete as much as you can.
+Once you start having to guess the answers to questions you should pause and hit the submit button.
+Don’t worry you can add/change your answers later
+-- speakerNotes
+Teacher to put link in Google Classroom - release this progress checker when you see fit. It can be released to different students at different times.
+1
+
+Starter
+Simon insert Starter
+2
+
+Python - FOR/WHILE Loops
+ASPIRE TO: Apply a loop to a Python program making them easier to understand
+CHALLENGE TO: Describe how a FOR/WHILE loop might benefit a program
+
+--speakerNotes
+2.2
+2.2.1 Programming fundamentals
+The use of variables, constants, operators, inputs, outputs and assignments
+The use of the three basic programming constructs used to control the flow of a program: 
+Sequence
+Selection 
+Iteration
+3
+
+What is Iteration?
+Iteration is the process of repeating something until a condition is met. 
+
+Examples are;
+FOR loop (Count Controlled)
+WHILE Loop (Condition Controlled)
+
+Why use them?
+As you can see in the 2 pieces of code, when iteration is used, fewer lines of code are needed.
+4
+
+Let’s Take A Look
+FOR loop initiated 
+X variable is created
+Prints the value of x (more on this later)
+Starting value
+Range of FOR loop
+End value -1
+Note Semi-Colon
+for x in range(start,end):
+	CODE TO LOOP
+CODE NOT IN LOOP
+--speakerNotes
+Make note of the end value -1 in purple
+5
+
+Teacher Demonstration
+Watch the video and see how the variables change while the program is running.
+6
+
+Task 1 - Name Repetition Looping
+Your turn!
+Using a new Python window you need to follow the instructions provided in your FOR Loops Student Workbook.
+Create a simple program that checks to see if a number is entered, if it is not an error message should appear.
+
+Once completed move onto slide 4 and screenshot your program
+7
+
+Let’s Take Another Look
+FOR loop initiated 
+X variable is created
+Prints the value of x (more on this later)
+Starting value
+Range of FOR loop
+End value -1
+Note Semi-Colon
+Step value
+Step value is the value that is counted up in. In this example the value of x is increased by 5 each time, therefore printing 0, 5, 10, 15 etc. This can also be used to countdown from a larger value;
+--speakerNotes
+Make note
+8
+
+What’s wrong?
+Look at the code below;
+
+How many times is line 2 repeated?
+Look at the code below;
+
+How many times is line 2 repeated?
+
+--speakerNotes
+1. 48
+2. 11
+9
+
+Slide10 skipped
+
+Trace Tables
+In order to keep track of variables in a loop we can use a trace table.
+Something like this can look very complex unless we track the variables.
+
+X
+Y
+1
+1
+1
+2
+2
+1
+2
+2
+3
+1
+3
+2
+
+11
+
+TAME Tasks - FOR Loops
+Test - Time to test your new program on Slide 9
+Evaluate - on slide 21 there is an example program that has been created for you. You should answer the question.
+Analyse - on slide 13 there is an example program that has been created for you. You should answer the question based on what you see in the code.
+Modify - on slide 15, 16, 17, 18, 19 and 20 Read the success criteria and make the program work as it should
+Modify - on slide 23, 24 and 25 you are to read the success criteria and make the program work as it should
+12
+
+Python - FOR/WHILE Loops
+ASPIRE TO: Apply a loop to a Python program making them easier to understand
+CHALLENGE TO: Describe how a FOR/WHILE loop might benefit a program
+--speakerNotes
+2.2
+2.2.1 Programming fundamentals
+The use of variables, constants, operators, inputs, outputs and assignments
+The use of the three basic programming constructs used to control the flow of a program: 
+Sequence
+Selection 
+Iteration
+13
+
+Iteration Reminder
+Iteration is the process of repeating something until a condition is met. 
+
+Examples are;
+FOR loop (Count Controlled)
+WHILE Loop (Condition Controlled)
+
+Why use them?
+As you can see in the 2 pieces of code, when iteration is used, much less lines of code are needed.
+14
+
+Let’s Take A Look
+WHILE loop initiated 
+Condition
+WHILE condition:
+	CODE TO LOOP
+CODE NOT IN LOOP
+Code to be run
+--speakerNotes
+Make note of the end value -1 in purple
+15
+
+Task 1 - Guess the Number
+
+Your turn!
+Using a new Python window you need to follow the instructions provided in your WHILE Loops Student Workbook.
+You need to create a program that checks user entry from an input and if the number entered matches the answer it should say well done you have guessed the number, if it doesn’t it should keep asking for a number to be entered.
+
+
+Once completed move onto slide 4-8 and screenshot your program
+16
+
+TAME Tasks - WHILE Loops
+Test - Create and test your program on Slide 10 - 12
+Evaluate - on slide 19 there is an example program that has been created for you. You should answer the question.
+Analyse - on slide 13 there is an example program that has been created for you. You should answer the question based on what you see in the code.
+Modify - on slide 14 Read the example exam question and complete the trace table.
+Modify - on slide 16, 17 and 18 you are to read the success criteria and make the program work as it should
+17
+
+Python - FOR/WHILE Loops
+ASPIRE TO: Apply a loop to a Python program making them easier to understand
+CHALLENGE TO: Describe how a FOR/WHILE loop might benefit a program
+--spekaerNotes
+2.2
+2.2.1 Programming fundamentals
+The use of variables, constants, operators, inputs, outputs and assignments
+The use of the three basic programming constructs used to control the flow of a program: 
+Sequence
+Selection 
+Iteration
+18
+
+TEACHER TO INSERT PLENARY HERE
+
+Plenary
+19

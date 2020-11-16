@@ -1,0 +1,8 @@
+TextWindow.WriteLine("How much pocket money do you have?")
+pocketMoney = TextWindow.Read()
+TextWindow.WriteLine("How much savings do you have?")
+savings = TextWindow.Read()
+TextWindow.WriteLine("How much did the DVD cost?")
+dvdCost = TextWindow.Read()
+left = (pocketMoney + savings) - dvdCost
+TextWindow.WriteLine("After buying the DVD you have £"+left+" left")
