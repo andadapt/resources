@@ -3,6 +3,7 @@
 
 ### Starter
 
+On your MWB write the output for the following code:
 
 ```basic 
 TextWindow.WriteLine("hellow, world!")
