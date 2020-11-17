@@ -6,9 +6,9 @@
 On your MWB write the output for the following code:
 
 ```basic 
-TextWindow.WriteLine("hellow, world!")
+TextWindow.WriteLine("hello, world!")
 TextWindow.Write("Basic is ")
-TextWindow.Write("awesome")
+TextWindow.WriteLine("awesome")
 TextWindow.WriteLine("!!!")
 ```
 
