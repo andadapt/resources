@@ -12,3 +12,6 @@ Accessible IT resources for secondary
 
 - [python, substrings](https://gitpitch.com/andadapt/resources?p=ks4/year9/python/substrings#/)
 
+
+## Year 10
+- [python, loops](https://gitpitch.com/andadapt/resources?p=ks4/year9/python/loopss#/)
