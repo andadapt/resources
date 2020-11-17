@@ -182,7 +182,7 @@ Screenshot your code and add it to your programming diary
 ---
 [drag=100, drop=center, flow=stack]
 
-## task
+## Extension
 
 🌈🌈🌈🌈🌈🌈🌈🌈
 
