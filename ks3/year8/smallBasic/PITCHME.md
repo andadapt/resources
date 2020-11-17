@@ -195,6 +195,8 @@ TextWindow.ForegroundColor="yellow"
 
 Create some rainbow output!
 
+black, darkBlue, darkGreen, darkCyan, darkRed, darkMagenta, darkYellow, gray, darkGray, blue, green, cyan, red, magenta, yellow, white
+
 
 ---
 [drag=99, drop=center, flow=column]
