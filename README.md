@@ -14,4 +14,4 @@ Accessible IT resources for secondary
 
 
 ## Year 10
-- [python, loops](https://gitpitch.com/andadapt/resources?p=ks4/year9/python/loops#/)
+- [python, loops](https://gitpitch.com/andadapt/resources?p=ks4/year9/python/loops/#/)
