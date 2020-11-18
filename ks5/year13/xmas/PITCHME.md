@@ -26,7 +26,7 @@ Join class
 ### Grab your username
 
 ---
-[drag=100, drop=center, flow=row]
+[drag=100, drop=center, flow=col]
 
 kaiegginton3948
 nataliegroom3644
