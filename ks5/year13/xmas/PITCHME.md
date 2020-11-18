@@ -28,6 +28,7 @@ Join class
 ---
 [drag=100, drop=center, flow=col]
 
+[drag=50, drop=left, flow=col]
 kaiegginton3948
 nataliegroom3644
 cadenhutchinson5818
@@ -38,6 +39,8 @@ caitlinrace5930
 ellimaiaustin8489
 natasharodgers2361
 summerscase0261
+
+[drag=50, drop=right, flow=col]
 kirstysouthwick6085
 hailiejaynetyler2559
 elliemaewheeler5725
