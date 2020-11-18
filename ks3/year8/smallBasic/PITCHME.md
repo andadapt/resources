@@ -84,7 +84,7 @@ Screenshot your code and add it to your programming diary
 Using:
 
 ```basic
-TextWindow.BackgroundColor="red:
+TextWindow.BackgroundColor="red"
 TextWindow.ForegroundColor="yellow"
 ```
 
