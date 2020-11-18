@@ -24,6 +24,111 @@ apply the methods of input and output in a variety of scenarios
 **CHALLENGE to:**
 construct a program that allows the user to input and output data
 ---
+
+[drag=100, drop=center, flow=col]
+
+## Small Basic
+
+Everything we have done in Small Basic so far has been using turtle to draw shapes. We are now going to look at creating text based programs.
+
+
+```basic
+TextWindow.WriteLine(“Text”)
+```
+This command will display the text inside the speech marks on screen.
+```basic
+TextWindow.Read()
+```
+This command will allow the user to enter something into the program
+```basic
+TextWindow.WriteLine(“Hello World”)
+```
+
+
+![](assets/img/slide3right.png)
+
+---
+[drag=99, drop=center, flow=column]
+
+
+
+## Task
+
+Open the Small Basic website at:
+
+
+### https://bit.ly/OAAdSB
+Complete Task 1 under lesson 3, can you change the colour of the foreground/background?
+
+**Extension:**
+
+Can you use TextWindow.Write() to change the colour of your text like shown below?
+
+
+![](assets/img/slide4right.png)
+
+---
+[drag=99, drop=center, flow=col]
+
+## Progress Check
+**On your mini-whiteboards answer the following questions:**
+
+What would the following code do?
+```basic
+TextWindow.WriteLine(“Welcome to Computer Science”)
+```
+---
+[drag=99, drop=center, flow=col]
+
+## Progress Check
+**On your mini-whiteboards answer the following questions:**
+What would the following code do?
+```basic
+TextWindow.ForegroundColor = “Green”
+TextWindow.WriteLine(“This is Green”)
+```
+---
+[drag=99, drop=center, flow=column]
+
+## Progress Check
+**On your mini-whiteboards answer the following questions:**
+
+What would the following code do?
+```basic
+TextWindow.BackgroundColor = “Green”
+TextWindow.WriteLine(“This is Green”)
+```
+---
+[drag=99, drop=center, flow=column]
+
+## Progress Check
+**On your mini-whiteboards answer the following questions:**
+
+What would the following code do?
+
+```basic
+TextWindow.WriteLine(“This is Green”)
+```
+
+```basic
+TextWindow.ForegroundColor = “Green”
+```
+---
+[drag=99, drop=center, flow=col]
+
+## Progress Check
+**On your mini-whiteboards answer the following questions:**
+
+What is the difference between:
+```basic
+TextWindow.Write()
+```
+
+&
+```basic
+TextWindow.WriteLine()?
+```
+---
 [drag=99, drop=center, flow=col]
 ## Taking Input
 
