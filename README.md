@@ -18,4 +18,4 @@ Accessible IT resources for secondary
 
 
 ## year 13
-- (xmas decoration)[https://gitpitch.com/andadapt/resources?p=ks5/year13/xmas#/]
+- [xmas decoration](https://gitpitch.com/andadapt/resources?p=ks5/year13/xmas#/)
