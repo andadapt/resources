@@ -1,0 +1,115 @@
+  
+Small Basic - Lesson 4 
+Variables
+ASPIRE to:
+apply different mathematical calculations to programs
+CHALLENGE to:
+construct a program that makes use of variables
+---
+
+Starter
+  
+Simon create own starter- they used once related to input/output 
+---
+  
+Variables
+
+Variables allow us to store data and create calculations with them.
+
+We use variables to store the answer of calculations and/or inputs from the user.
+
+Imagine a variable is a box and you store information in it. When you want that information you can refer to the box it is stored in.
+
+Code Example
+
+num1 = TextWindow.Read()
+num2 = TextWindow.Read()
+total = num1 + num2
+TextWindow.WriteLine(total)
+
+15 num1
+9  num2
+24 total
+
+SN- Go through the code and explain that if the user entered 15 as the first number it would store it in the variable (or box) num1. If the user entered the number 9 as the second number it would store it in the variable (or box) num2. To work out the total it takes the number stored in the box(or variable) num1 and adds it to what is stored in the box (or variable) num2 and stores it in the variable (or box) total. Finally the program will display what is in the variable (or box) total.
+---
+
+Tasks
+
+Try to complete:
+
+Task 1 - Cards Each
+
+Task 2 - Temperature Difference
+
+Use the code that is given to get started and then continue creating the program so it works like the example shown.
+
+Done? Screenshot your code and add it to your programming diary
+---
+
+Progress Check
+
+On your mini-whiteboards answer the following questions:
+
+How many variables are there in this code? What are they called?
+
+TextWindow.WriteLine(“Number of pupils:”)
+pupils = TextWindow.Read()
+TextWindow.WriteLine(“Number of classes:”)
+classes = TextWindow.Read()
+totalPupils = pupils * classes
+TextWindow.WriteLine(“Total: “ + totalPupils)
+
+SN-
+Answer:
+3 variables, pupils, classes and totalPupils.
+---
+
+Progress Check
+
+On your mini-whiteboards answer the following questions:
+
+How many variables are there in this code? What are they called?
+
+age = 15
+yearsOff = 18 - age
+TextWindow.WriteLine(“You are “ + yearsOff + “being an adult”)
+
+SN-
+Answer:
+2 variables, one is called age the other is called yearsOff
+---
+
+Progress Check
+  
+On your mini-whiteboards answer the following question:
+
+Why would this program not multiply together two numbers and give you the answer?
+
+
+TextWindow.WriteLine(“Enter number 1”)
+num1 = TextWindow.Read()
+TextWindow.WriteLine(“Enter number 2”)
+answer = num1 * num2
+num2 = TextWindow.Read()
+TextWindow.WriteLine(“The total is” + total)
+
+SN-
+Answer:
+The second number is taken from the user after the calculation, you need to swap lines 4 & 5 around.
+---
+
+Task
+  
+Try to complete Task 3 - Pocket Money
+
+Use the success criteria to create a program to work out how much money they have left.
+
+Done? Screenshot your program and add it to your programming diary.
+Then try to complete the school trip extension task.
+---
+
+Plenary
+
+Simon insert own plenary 
+---

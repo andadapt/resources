@@ -7,7 +7,7 @@ Accessible IT resources for secondary
 
 ## Year8
 - [small basic, Lesson 3](https://gitpitch.com/andadapt/resources?p=ks3/year8/smallBasic/#/)
-
+- [small basic, Variables](https://gitpitch.com/andadapt/resources?p=ks3/year8/smallBasicVariables/#/)
 ## year 9
 
 - [python, substrings](https://gitpitch.com/andadapt/resources?p=ks4/year9/python/substrings#/)
