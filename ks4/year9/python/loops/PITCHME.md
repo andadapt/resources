@@ -59,7 +59,7 @@ for x in range(10):
 ---
 [drag=100, drop=center, flow=col]
 ## Teacher Demonstration
-Watch the video and see how the variables change while the program is running.
+WatDemo time!!!
 ---
 [drag=100, drop=center, flow=col]
 ## Task 1 - Name Repetition Looping
@@ -72,15 +72,11 @@ Once completed move onto slide 4 and screenshot your program
 [drag=100, drop=center, flow=col]
 ### Let’s Take Another Look
 
-FOR loop initiated 
-X variable is created
-Prints the value of x (more on this later)
-Starting value
-Range of FOR loop
-End value -1
-Note Semi-Colon
-Step value
-Step value is the value that is counted up in. In this example the value of x is increased by 5 each time, therefore printing 0, 5, 10, 15 etc. This can also be used to countdown from a larger value;
+
+```python
+for x in range(0,100,5):
+	print(x)
+```
 ---
 [drag=100, drop=center, flow=col]
 ## What’s wrong?
