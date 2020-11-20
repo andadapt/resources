@@ -1,6 +1,6 @@
 [drag=100, drop=center, flow=col]
 
-## STarter
+## Starter
 
 On your MWB write down what the following code would do:
 
