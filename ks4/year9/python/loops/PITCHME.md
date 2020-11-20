@@ -59,7 +59,7 @@ for x in range(10):
 ---
 [drag=100, drop=center, flow=col]
 ## Teacher Demonstration
-WatDemo time!!!
+Demo time!!
 ---
 [drag=100, drop=center, flow=col]
 ## Task 1 - Name Repetition Looping
