@@ -139,12 +139,15 @@ Iteration is the process of repeating something until a condition is met.
 [drag=100, drop=center, flow=col]
 
 ## Let’s Take A Look
-WHILE loop initiated 
-Condition
-WHILE condition:
-	CODE TO LOOP
-CODE NOT IN LOOP
-Code to be run
+
+```python
+userentry = "y"
+
+while usernetry != "n":
+	userentry = input("Play again? Y/N")
+```
+
+![](assets/img/pythonLoops/while.png)
 ---
 [drag=100, drop=center, flow=col]
 ## Task 1 - Guess the Number
@@ -153,7 +156,7 @@ Code to be run
 Using a new Python window you need to follow the instructions provided in your WHILE Loops Student Workbook.
 You need to create a program that checks user entry from an input and if the number entered matches the answer it should say well done you have guessed the number, if it doesn’t it should keep asking for a number to be entered.
 
-
+![](assets/img/pythonLoops/task.gif)
 Once completed move onto slide 4-8 and screenshot your program
 ---
 [drag=100, drop=center, flow=col]
@@ -175,6 +178,8 @@ Apply a loop to a Python program making them easier to understand
 Describe how a FOR/WHILE loop might benefit a program
 ---
 [drag=100, drop=center, flow=col]
+## Plenary
+
 what is wrong with the following python code:
 
 ```python
@@ -183,5 +188,5 @@ while counter < 10:
 	counter = counter + 1
 ```
 
-Plenary
+
 
