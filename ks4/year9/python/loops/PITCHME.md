@@ -51,6 +51,7 @@ print("9")
 [drag=100, drop=center, flow=col]
 
 ## Using a loop
+
 ```python
 for x in range (10):
 	print(x)
