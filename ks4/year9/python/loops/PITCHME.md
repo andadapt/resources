@@ -81,9 +81,17 @@ for x in range(0,100,5):
 [drag=100, drop=center, flow=col]
 ## What’s wrong?
 Look at the code below;
+```python
+for x in range(1,49):
+	print(x)
+```
 
 How many times is line 2 repeated?
 Look at the code below;
+```python
+for x in range(0,51,5):
+	print(x)
+```
 
 How many times is line 2 repeated?
 ---
