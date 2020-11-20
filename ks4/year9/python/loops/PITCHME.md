@@ -32,7 +32,7 @@ Iteration is the process of repeating something until a condition is met.
 
 ---
 [drag=100, drop=center, flow=col]
-### Without a loop
+## Without a loop
 
 ```python
 print("0")
@@ -50,12 +50,12 @@ print("9")
 
 [drag=100, drop=center, flow=col]
 
-## Using a loop
+## Using a for loop
 
 ```python
-for x in range (10):
+for x in range(10):
 	print(x)
-	```
+```
 ---
 [drag=100, drop=center, flow=col]
 ## Teacher Demonstration
