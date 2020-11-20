@@ -109,7 +109,8 @@ TextWindow.WriteLine(“The total is” + total)
  
 ---
 [drag=100, drop=center, flow=col]
-## Task
+[drag=50, drop=left, flow=col]
+### Task
   
 Try to complete Task 3 - Pocket Money
 
@@ -117,6 +118,8 @@ Use the success criteria to create a program to work out how much money they hav
 
 Done? Screenshot your program and add it to your programming diary.
 Then try to complete the school trip extension task.
+[drag=50, drop=right, flow=col]
+![](assets/img/smallBasicVariables/task3.gif)
 ---
 [drag=100, drop=center, flow=col]
 
