@@ -34,7 +34,7 @@ Iteration is the process of repeating something until a condition is met.
 [drag=100, drop=center, flow=col]
 [drag=50, drop=left, flow=col]
 ### Why use them?
-As you can see in the 2 pieces of code, when iteration is used, fewer lines of code are needed.
+
 
 ```python
 print("0")
