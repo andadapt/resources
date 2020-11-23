@@ -1,0 +1,79 @@
+Step 1 - the Program Counter (PC) is set to 0.
+FDE using Von Neumann
+
+
+Step 2 - the PC passes the address of the next instruction to be fetched to the Memory Address Register (MAR)
+
+
+Step 3 - the MAR sends a request for the data in the memory address it holds to be fetched and placed in the Memory Data Register (MDR).
+
+
+Step 4 - once the data has been fetched, the Program Counter (PC) is incremented by 1. This is the fetch stage complete.
+
+
+Step 5 - the Control Unit, now decodes the instruction in the MDR and works out what to do.
+
+
+Step 6 - the instruction is then executed. In this example, the instruction is to load the contents of memory address 4 to the ALU. This is the FDE cycle complete.
+
+The CPU now repeats the FDE cycle again. The first step is moving the contents of the PC to the MAR. Let’s walk through the rest updating your mini-whiteboards.
+
+To the right are the contents of RAM, divide your whiteboard up so it looks like this
+
+
+Activity - Von Neumann Architecture
+PC
+MAR
+ALU
+ACC
+MDR
+--14
+
+Now with what you know about the different registers, and what you also learnt about the different parts of the CPU in previous lessons, complete this matching activity.
+Task
+--15
+
+Extension: Little Man Computer
+The Little Man Computer is a simulator to show how you can provide instructions in assembly language and it will carry out the FDE cycle.
+You can see how all the different registers work together to complete tasks.
+Complete the following:
+
+1. Open the LMC website
+2. Type in the code to the right
+3. Click Run
+4. Enter a number when asked
+5. Watch what happens, when does your input end up? Why?
+INP
+STA 5
+HLT
+
+SN- Discuss with students what is going on. Each instruction e.g. INP is 901 has a numerical representation. When the program counter fetches from memory location 0 the first instruction it fetched 901 which means INP i.e. get the user to input a number. It splits the instruction (9) from the memory address (01). When the user inputs a number it puts it in the accumulator
+When the program counter increased from 0 to 1 and the next instruction is fetched STA 5 has a numerical representation of 305. 3 means STA i.e. store and 05 is the memory location to store it. When it retrieves the instruction the instruction part i.e. STA or 3 goes in the current instruction register, the memory address to store it in goes into the memory address register i.e. 05. When it executes this instruction it takes the contents of the accumulator which is still the number that the user has input and stores it in memory location 5.
+At the end of the cycle the number the user input ends up in memory location 5.
+--16
+
+Extension Task - LMC
+Using the help sheet you have been given, try to write some LMC programs to do the following:
+
+Input two numbers and store them in different memory locations.
+Input two numbers and output the sum.
+Input one number and output the number doubled.
+Input three numbers and output them in reverse order.
+Input two numbers and output the first number minus the second.
+--17
+
+Plenary
+Answer the exam style questions on the sheet you have been given.
+--
+
+Plenary – Mark Scheme
+Question
+Answer
+1 a)
+The registers are memory that can store tiny amounts of data (1 mark) that the CPU can access extremely quickly (1 mark)
+1 b)
+Accumulator – the accumulator stores the results of calculations done by the ALU (1 mark)
+MAR – holds any memory address about to be used by the CPU (1 mark)
+MDR – holds data or instruction that have been fetched from/to be written to memory (1 mark)
+1 c)
+If the PC does not increment each cycle, the memory address of the next instruction will always be the same (1 mark), this means the CPU will keep carrying out the same instruction (1 mark)
