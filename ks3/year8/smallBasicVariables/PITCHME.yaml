@@ -5,8 +5,8 @@ gitpitch : 4.0
 theme-override: assets/css/PITCHME.css
 
 # Slide Deck Metadata
-title : "Python - substrings"
-description : "python substrings for KS4, includes demos and work to be completed"
+title : "Small Basic - Variables"
+description : "Small Basic - variables, including tasks to be completed"
 thumbnail : assets/img/gitpitch-40-splash.png
 
 
