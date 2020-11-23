@@ -1,6 +1,9 @@
 [drag=100, drop=center, flow=col]
 
 ## Starter
+Answer the following questions on your MWB:
+
+
 
 ---
 [drag=100, drop=center, flow=col]
@@ -31,9 +34,9 @@
 ##Clock Speed
 @ol
 - Measured in Hz
-- 1 Hz = 1 cycle a second
-- 1Mhz = 1 Million cycles a second
-- 1 GHz = 1 billion cycles a second
+- 1 Hz = 1 fetch, decode, execute (FDE) cycle a second
+- 1Mhz = 1 Million (FDE) cycles a second
+- 1 GHz = 1 billion f(FDE) cycles a second
 @ol
 
 ---
@@ -43,9 +46,9 @@
 ## Number of cores
 
 @ol
-- Increasing the core count increases the cycles per second
-- 2 core at 1Hz, can do 2 cycles per second
-- 2 cores at 2 Hz, 4 cycles per second
+- Increasing the core count increases the (FDE) cycles per second
+- 2 core at 1Hz, can do 2 (FDE) cycles per second
+- 2 cores at 2 Hz, 4 (FDE) cycles per second
 @ol
 
 
@@ -76,3 +79,72 @@ What are the common CPU architectures?
 [drag=100, drop=center, flow=col]
 
 
+##Von Neumann
+
+---
+[Drag=100, drop=center, flow=col]
+
+small description
+
+---
+[drag=100,drop=center flow=col]
+
+## Fetch, Decode, Execute cycle
+
+@ol
+- Step 1 - the Program Counter (PC) is set to 0.
+- Step 2 - the PC passes the address of the next instruction to be fetched to the Memory Address Register (MAR)
+- Step 3 - the MAR sends a request for the data in the memory address it holds to be fetched and placed in the Memory Data Register (MDR).
+- Step 4 - once the data has been fetched, the Program Counter (PC) is incremented by 1. This is the fetch stage complete.
+- Step 5 - the Control Unit, now decodes the instruction in the MDR and works out what to do.
+- Step 6 - the instruction is then executed. In this example, the instruction is to load the contents of memory address 4 to the ALU. This is the FDE cycle complete.
+- The CPU now repeats the FDE cycle again. The first step is moving the contents of the PC to the MAR.
+@ol
+
+---
+
+## Refine & Revise
+
+the important bit is remembering two registers..
+
+## 2 registers to remember
+@ol
+- MAR, Memory Address Register
+- MDR - Memory Data Register
+@ol
+## Never forget the ALU
+@ol
+- Its the only one not a register
+- this often comes up
+@ol
+
+---
+[drag=100, drop=center, flow=col]
+
+## Learning brilliance
+
+Together lets build a picture to remember
+
+or
+
+A fun mnemonic 
+
+---
+[drag=100, drop=center, flow=col]
+
+## Task
+
+Complete the supplied example exam question
+
+---
+[drag=100, drop=center, flow=col]
+
+##Plenary
+
+Think about the following questions for 3 minutes, then be prepared to feedback to the class:
+
+- How do more cores  improve performance?
+- What is faster, RAM or Cache?
+- Name two registers in the Von Neumann architecture
+- Name a part of the Von Neumann architecture that is not a register?
+-
