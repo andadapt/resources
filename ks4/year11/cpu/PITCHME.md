@@ -3,6 +3,10 @@
 ## Starter
 Answer the following questions on your MWB:
 
+- Name two network topologies
+
+- What address does a switch use?
+- What address does a router use?
 
 
 ---
@@ -11,10 +15,10 @@ Answer the following questions on your MWB:
 ## CPU Performance
 ### Von Neumann
 
-**Aspite to:**
-
+**Aspire to:**
+Understand the complete Von Neumann FDE cycle
 **Challenge to:**
-
+Identify three performance metrics of the CPU and 2 registers of Von Neumann architecture
 ---
 
 [drag=100, drop=center, flow=col]
@@ -47,6 +51,7 @@ Answer the following questions on your MWB:
 
 @ol
 - Increasing the core count increases the (FDE) cycles per second
+- As FDE cycles can be run simultaneously
 - 2 core at 1Hz, can do 2 (FDE) cycles per second
 - 2 cores at 2 Hz, 4 (FDE) cycles per second
 @ol
@@ -78,14 +83,15 @@ What are the common CPU architectures?
 ---
 [drag=100, drop=center, flow=col]
 
-
 ##Von Neumann
 
----
-[Drag=100, drop=center, flow=col]
+Von Neumann architecture is the design upon which many general purpose computers are based. 
 
-small description
-
+The key elements of Von Neumann architecture are: 
+@ol
+- data and instructions are both stored as binary . 
+- data and instructions are both stored in main memory.
+@ol
 ---
 [drag=100,drop=center flow=col]
 
@@ -102,7 +108,7 @@ small description
 @ol
 
 ---
-
+[drag=100, drop=center, flow=col]
 ## Refine & Revise
 
 the important bit is remembering two registers..
