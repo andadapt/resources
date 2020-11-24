@@ -5,13 +5,18 @@
 On your MWB write down what the following code would do:
 
 ```basic
-TextWindow.BackgroundColor="black"
-TextWindow.WriteLine("     ")
-TextWindow.BackgroundColor="white"
-TextWindow.ForegroundColor="black"
-TextWindow.Write("Hello")
+TextWindow.WriteLine("How old are you?")
+age = TextWindow.read()
+TextWindow.WriteLine("You are " + age)
 ```
 
+What is wrong with the following code?
+
+```basic
+TextWindow.WriteLine("What is your favourite colour?")
+TextWindow.read()
+TextWindow.WriteLine("your favourite colour is " + color)
+```
 ---
 [drag=100, drop=center, flow=col]
 

@@ -4,7 +4,6 @@
 Answer the following questions on your MWB:
 
 - Name two network topologies
-
 - What address does a switch use?
 - What address does a router use?
 
@@ -54,6 +53,8 @@ Identify three performance metrics of the CPU and 2 registers of Von Neumann arc
 - As FDE cycles can be run simultaneously
 - 2 core at 1Hz, can do 2 (FDE) cycles per second
 - 2 cores at 2 Hz, 4 (FDE) cycles per second
+- Software needs to be written to take advantage of all cores
+- Some software such as games are very single core dependant 
 @ol
 
 
@@ -115,12 +116,16 @@ the important bit is remembering two registers..
 
 ## 2 registers to remember
 @ol
-- MAR, Memory Address Register
-- MDR - Memory Data Register
+- MAR // memory address register   Stores the address where data will be read
+- MDR memory data register, stores the data that is read from memory
+- PC -  Program counter, Stores the address of next instruction to be run
+-AC -  Accumulator  , stores the result of calculations
+- CIR - Current Instruction Register, , holds instructions current being executed
 @ol
 ## Never forget the ALU
 @ol
-- Its the only one not a register
+- Its not a register!
+- ALE = Arithmetic Logic Unit, its where all the math happens!
 - this often comes up
 @ol
 
@@ -138,10 +143,64 @@ A fun mnemonic
 ---
 [drag=100, drop=center, flow=col]
 
+### Von Neumann The counting robot!
+
+- Von the shiny ALUminium bot.
+ - Likes counting, he keeps track  of his next instruction on his program counter.
+-  and stores his results in his accumulator
+@ol
+
+
+---
+[drag=100, drop=center, flow=col]
+
 ## Task
+**Complete the following exam based questions**
 
-Complete the supplied example exam question
+---
+[drag=100, drop=center, flow=col**
 
+## Question 1:
+
+
+Alicia has designed a computer using Von Neumann architecture. 
+
+(a) Describe the purpose of two registers that are used by Von Neumann architecture. (4 marks)
+
+@ol
+- MAR // memory address register   Stores the address where data will be read
+- MDR memory data register, stores the data that is read from memory
+- PC -  Program counter, Stores the address of next instruction to be run
+-AC -  Accumulator  , stores the result of calculations
+- CIR - Current Instruction Register, , holds instructions current being executed
+@ol
+---
+[drag=100, drop=center, flow=col]
+
+## Question 1
+
+(b) The CPU has a clock speed of 3.8GHz. Describe what is meant by a clock speed of 3.8GHz. (2 marks)
+
+@ol
+- Number of FDE cycles per second
+- 3.8 billion cycles per second
+@ol
+
+---
+[drag=100,drop=center, flow=col]
+
+## Question 1
+
+(c) Alicia says: “My computer has a quad-core processor, so it will run twice as fast as a computer with a dual-core processor.” Explain why this statement is not always true. (3 marks)
+
+
+@ol
+- Software may be designed to run on 1 core and not multiple cores // depends on the task(s)  
+- …some tasks cannot be split across cores  Clock speed also affects speed // dual core may have a faster clock speed // quad-core may have slower clock speed  
+- ….so one task may be run faster/slower  
+- RAM size also affects speed // Quad-core may have less RAM // amount of VM being used  
+-Cache size also affects speed // Quad-core may have less cache
+@ol
 ---
 [drag=100, drop=center, flow=col]
 
@@ -152,5 +211,4 @@ Think about the following questions for 3 minutes, then be prepared to feedback 
 - How do more cores  improve performance?
 - What is faster, RAM or Cache?
 - Name two registers in the Von Neumann architecture
-- Name a part of the Von Neumann architecture that is not a register?
--
+
