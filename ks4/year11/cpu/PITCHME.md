@@ -34,7 +34,7 @@ Identify three performance metrics of the CPU and 2 registers of Von Neumann arc
 
 [drag=100, drop=center, flow=col]
 
-##Clock Speed
+## Clock Speed
 @ol
 - Measured in Hz
 - 1 Hz = 1 fetch, decode, execute (FDE) cycle a second
@@ -84,7 +84,7 @@ What are the common CPU architectures?
 ---
 [drag=100, drop=center, flow=col]
 
-##Von Neumann
+## Von Neumann
 
 Von Neumann architecture is the design upon which many general purpose computers are based. 
 
@@ -122,6 +122,7 @@ the important bit is remembering two registers..
 -AC -  Accumulator  , stores the result of calculations
 - CIR - Current Instruction Register, , holds instructions current being executed
 @ol
+
 ## Never forget the ALU
 @ol
 - Its not a register!
@@ -145,8 +146,9 @@ A fun mnemonic
 
 ### Von Neumann The counting robot!
 
+@ol
 - Von the shiny ALUminium bot.
- - Likes counting, he keeps track  of his next instruction on his program counter.
+- Likes counting, he keeps track  of his next instruction on his program counter.
 -  and stores his results in his accumulator
 @ol
 
@@ -158,14 +160,14 @@ A fun mnemonic
 **Complete the following exam based questions**
 
 ---
-[drag=100, drop=center, flow=col**
+[drag=100, drop=center, flow=col]
 
 ## Question 1:
 
 
 Alicia has designed a computer using Von Neumann architecture. 
 
-(a) Describe the purpose of two registers that are used by Von Neumann architecture. (4 marks)
+a -  Describe the purpose of two registers that are used by Von Neumann architecture. (4 marks)
 
 @ol
 - MAR // memory address register   Stores the address where data will be read
@@ -179,7 +181,7 @@ Alicia has designed a computer using Von Neumann architecture.
 
 ## Question 1
 
-(b) The CPU has a clock speed of 3.8GHz. Describe what is meant by a clock speed of 3.8GHz. (2 marks)
+b -  The CPU has a clock speed of 3.8GHz. Describe what is meant by a clock speed of 3.8GHz. (2 marks)
 
 @ol
 - Number of FDE cycles per second
@@ -191,7 +193,7 @@ Alicia has designed a computer using Von Neumann architecture.
 
 ## Question 1
 
-(c) Alicia says: “My computer has a quad-core processor, so it will run twice as fast as a computer with a dual-core processor.” Explain why this statement is not always true. (3 marks)
+c -  Alicia says: “My computer has a quad-core processor, so it will run twice as fast as a computer with a dual-core processor.” Explain why this statement is not always true. (3 marks)
 
 
 @ol
@@ -204,7 +206,7 @@ Alicia has designed a computer using Von Neumann architecture.
 ---
 [drag=100, drop=center, flow=col]
 
-##Plenary
+## Plenary
 
 Think about the following questions for 3 minutes, then be prepared to feedback to the class:
 
