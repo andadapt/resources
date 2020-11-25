@@ -119,7 +119,7 @@ the important bit is remembering two registers..
 - MAR // memory address register   Stores the address where data will be read
 - MDR memory data register, stores the data that is read from memory
 - PC -  Program counter, Stores the address of next instruction to be run
--AC -  Accumulator  , stores the result of calculations
+- AC -  Accumulator  , stores the result of calculations
 - CIR - Current Instruction Register, , holds instructions current being executed
 @ol
 
