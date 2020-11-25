@@ -173,9 +173,10 @@ a -  Describe the purpose of two registers that are used by Von Neumann architec
 - MAR // memory address register   Stores the address where data will be read
 - MDR memory data register, stores the data that is read from memory
 - PC -  Program counter, Stores the address of next instruction to be run
--AC -  Accumulator  , stores the result of calculations
-- CIR - Current Instruction Register, , holds instructions current being executed
+- AC -  Accumulator  , stores the result of calculations
+-  CIR - Current Instruction Register, , holds instructions current being executed
 @ol
+
 ---
 [drag=100, drop=center, flow=col]
 
@@ -201,7 +202,7 @@ c -  Alicia says: “My computer has a quad-core processor, so it will run twice
 - …some tasks cannot be split across cores  Clock speed also affects speed // dual core may have a faster clock speed // quad-core may have slower clock speed  
 - ….so one task may be run faster/slower  
 - RAM size also affects speed // Quad-core may have less RAM // amount of VM being used  
--Cache size also affects speed // Quad-core may have less cache
+- Cache size also affects speed // Quad-core may have less cache
 @ol
 ---
 [drag=100, drop=center, flow=col]
