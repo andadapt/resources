@@ -9,7 +9,7 @@ Von Neumann is a robot...
 ---
 [drag=100, drop=center, flow=col]
 
-## Image representation
+# Image representation
 
 **ASPIRE TO:**
 describe how colour depth and resolution affects file size
@@ -53,7 +53,7 @@ Metadata is data about data - it allows a computer to construct an image. The me
 ## Keywords
 Copy down the keyword definitions for today’s lesson:
 
-**Pixel - the smallest element of an image. Pixels are the dots that make up an image on screen.**
+**Pixel** - the smallest element of an image. Pixels are the dots that make up an image on screen.**
 
 **Colour Depth -  this is the number of bits used to store the colour for each pixel. The more bits used the more colours that can be represented.**
 
@@ -108,3 +108,18 @@ The file size of the image will reduce [1] as there are less bits being used to 
 
 
 
+---
+
+Sound: 
+• how sound can be sampled and stored in digital form 
+Green
+ 
+• how sampling intervals and other factors affect the size of a sound file and the quality of its playback: ⃝ sample size ⃝ bit rate ⃝ sampling frequency. 
+Green
+ 
+Compression:
+ • need for compression 
+Green
+ 
+• types of compression: ⃝ lossy ⃝ lossless.
+Green
